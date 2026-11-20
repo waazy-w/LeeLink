@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from 'react';
 import type { UserInfo } from '@leelink/shared/protocol';
-import { api, setToken, type MeResponse } from './api';
+import { api, setToken, STATIC, type MeResponse } from './api';
 
 interface AuthState {
   user: UserInfo | null;
@@ -20,6 +20,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [discordEnabled, setDiscord] = useState(false);
 
   const refresh = useCallback(async () => {
+    if (STATIC) {
+      setLoading(false);
+      return;
+    }
     try {
       const me = await api<MeResponse>('/api/me');
       setUser(me.user);

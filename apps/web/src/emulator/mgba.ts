@@ -38,9 +38,9 @@ let modulePromise: Promise<MgbaModule> | undefined;
 
 async function loadModule(): Promise<MgbaModule> {
   // Served from /public so it's not processed by the bundler.
-  const url = '/cores/mgba/leelink-mgba.js';
+  const url = `${import.meta.env.BASE_URL}cores/mgba/leelink-mgba.js`;
   const factory = (await import(/* @vite-ignore */ url)).default as (opts: object) => Promise<MgbaModule>;
-  return factory({ locateFile: (f: string) => `/cores/mgba/${f}` });
+  return factory({ locateFile: (f: string) => `${import.meta.env.BASE_URL}cores/mgba/${f}` });
 }
 
 export async function createMgbaCore(rom: Uint8Array, save?: Uint8Array, platformHint?: Platform): Promise<EmulatorCore> {

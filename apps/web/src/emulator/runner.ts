@@ -50,7 +50,7 @@ export class Runner {
       return;
     }
     const ctx = new AudioContext({ latencyHint: 'interactive' });
-    await ctx.audioWorklet.addModule('/audio-worklet.js');
+    await ctx.audioWorklet.addModule(`${import.meta.env.BASE_URL}audio-worklet.js`);
     const node = new AudioWorkletNode(ctx, 'leelink-audio', { outputChannelCount: [2] });
     const gain = ctx.createGain();
     gain.gain.value = this.muted ? 0 : this.volume;

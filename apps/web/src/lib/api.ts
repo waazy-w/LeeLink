@@ -2,6 +2,9 @@ import type { UserInfo } from '@leelink/shared/protocol';
 
 const TOKEN_KEY = 'leelink.token';
 
+/** Static hosting (GitHub Pages): no server, so only solo play and local tools are available. */
+export const STATIC = import.meta.env.VITE_STATIC === '1';
+
 export function getToken(): string | undefined {
   return localStorage.getItem(TOKEN_KEY) ?? undefined;
 }

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { useAuth } from '../lib/auth';
-import { api } from '../lib/api';
+import { api, STATIC } from '../lib/api';
 import { registry, useProfilesLoaded } from '../lib/profiles';
 import type { RunSummary } from '@leelink/shared/protocol';
 import { PRESETS, type PresetName } from '@leelink/shared/engine/settings';
@@ -225,7 +225,22 @@ function Landing() {
           </div>
         ))}
       </div>
-      <SignIn title="Get started" autoFocus={false} />
+      {STATIC ? (
+        <div className="panel space-y-3 p-6">
+          <h2 className="text-lg font-bold">Try it</h2>
+          <p className="text-sm text-ink-300">
+            This GitHub Pages version runs without a server: play solo with live memory tracking, or build game profiles.
+            Multiplayer Soul Link rooms need the Lee Link server — see the README to self-host it.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <Link className="btn-primary" to="/play">Play solo</Link>
+            <Link className="btn-secondary" to="/profiles">Game profiles</Link>
+            <a className="btn-ghost" href="https://github.com/waazy-w/LeeLink">Source on GitHub</a>
+          </div>
+        </div>
+      ) : (
+        <SignIn title="Get started" autoFocus={false} />
+      )}
     </div>
   );
 }

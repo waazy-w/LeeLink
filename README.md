@@ -14,6 +14,9 @@ falls, and enforces the run's rules — no spreadsheet.
 - Dashboard, link board, graveyard, activity feed, chat, live screen previews, cloud saves with
   version history, Discord webhook, OBS overlay, recap page and hall of fame.
 
+**Live demo (solo play + profile tools):** https://waazy-w.github.io/LeeLink/ — GitHub Pages can't run
+the server, so multiplayer rooms need a self-hosted server (see *Deploy*).
+
 ## Game support
 
 | Games | Engine | Tracking |

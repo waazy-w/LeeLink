@@ -36,9 +36,9 @@ const H = 192;
 let modulePromise: Promise<MelonModule> | undefined;
 
 async function loadModule(): Promise<MelonModule> {
-  const url = '/cores/melonds/leelink-melonds.js';
+  const url = `${import.meta.env.BASE_URL}cores/melonds/leelink-melonds.js`;
   const factory = (await import(/* @vite-ignore */ url)).default as (opts: object) => Promise<MelonModule>;
-  return factory({ locateFile: (f: string) => `/cores/melonds/${f}` });
+  return factory({ locateFile: (f: string) => `${import.meta.env.BASE_URL}cores/melonds/${f}` });
 }
 
 export async function createMelonCore(rom: Uint8Array, save?: Uint8Array): Promise<EmulatorCore> {

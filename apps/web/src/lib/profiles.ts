@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ProfileRegistry } from '@leelink/shared/profiles/registry';
 import type { GameProfile } from '@leelink/shared/profiles/types';
-import { api } from './api';
+import { api, STATIC } from './api';
 
 const LOCAL_KEY = 'leelink.localProfiles';
 
@@ -31,6 +31,7 @@ let loaded: Promise<void> | undefined;
 export function loadProfiles(): Promise<void> {
   loaded ??= (async () => {
     try {
+      if (STATIC) throw new Error('no server');
       const res = await api<{ profiles: GameProfile[] }>('/api/profiles');
       res.profiles.forEach((p) => registry.add(p));
     } catch {
