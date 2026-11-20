@@ -8,5 +8,6 @@ cores/vendor/
 *.sav
 *.local
 .env
-data/
+/data/
+apps/server/data/
 snapshots/private/
