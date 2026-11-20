@@ -1,0 +1,10 @@
+{
+ "id": "crystal-clear-2.5.10",
+ "name": "Pokémon Crystal Clear 2.5.10 (hack)",
+ "extends": "crystal-us-rev0",
+ "generation": 2,
+ "platform": "gbc",
+ "engine": "gen2",
+ "match": { "sha1": ["d4ea928101b6c1ff624c84035db033f5534bc1a2"] },
+ "addresses": {}
+}

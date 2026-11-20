@@ -1,0 +1,10 @@
+node_modules
+dist
+cores/vendor
+data
+.git
+*.gba
+*.gbc
+*.gb
+*.nds
+*.sav

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+cores/vendor/
+*.gba
+*.gbc
+*.gb
+*.nds
+*.sav
+*.local
+.env
+data/
+snapshots/private/

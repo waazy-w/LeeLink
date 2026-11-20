@@ -1,0 +1,2142 @@
+{
+ "id": "red-us-rev0",
+ "name": "Pokémon Red (US)",
+ "generation": 1,
+ "platform": "gb",
+ "engine": "gen1",
+ "match": {
+  "titles": [
+   "POKEMON RED"
+  ],
+  "revisions": [
+   0
+  ],
+  "sha1": [
+   "ea9bcae617fdf159b045185467ae58b2e4a48b9a"
+  ]
+ },
+ "addresses": {
+  "playerName": 53592,
+  "playerId": 54105,
+  "partyCount": 53603,
+  "partySpecies": 53604,
+  "partyMons": 53611,
+  "partyOTs": 53875,
+  "partyNicknames": 53941,
+  "boxCount": 55936,
+  "boxSpecies": 55937,
+  "boxMons": 55958,
+  "boxOTs": 56618,
+  "boxNicknames": 56838,
+  "currentBox": 54688,
+  "badges": 54102,
+  "curMap": 54110,
+  "statusFlags6": 55090,
+  "linkState": 53547,
+  "isInBattle": 53335,
+  "battleType": 53338,
+  "battleResult": 53003,
+  "curOpponent": 53337,
+  "enemyMonSpecies2": 53208,
+  "curEnemyLevel": 53543,
+  "trainerClass": 53297,
+  "trainerNo": 53341,
+  "capturedMonSpecies": 53532,
+  "enemyPartyCount": 55452,
+  "enemyPartySpecies": 55453,
+  "enemyMons": 55460,
+  "enemyPartyOTs": 55724,
+  "enemyPartyNicknames": 55790,
+  "enemyMon": 53221,
+  "enemyMonPartyPos": 53224,
+  "playerMonNumber": 52271
+ },
+ "offsets": {
+  "partyMonSize": 44,
+  "boxMonSize": 33,
+  "battleMonSize": 29,
+  "nameLength": 11,
+  "boxCapacity": 20,
+  "gameTimerBit": 0,
+  "battleTypeOldMan": 1
+ },
+ "flags": {},
+ "locations": {
+  "0": "Pallet Town",
+  "1": "Viridian City",
+  "2": "Pewter City",
+  "3": "Cerulean City",
+  "4": "Lavender Town",
+  "5": "Vermilion City",
+  "6": "Celadon City",
+  "7": "Fuchsia City",
+  "8": "Cinnabar Island",
+  "9": "Indigo Plateau",
+  "10": "Saffron City",
+  "12": "Route 1",
+  "13": "Route 2",
+  "14": "Route 3",
+  "15": "Route 4",
+  "16": "Route 5",
+  "17": "Route 6",
+  "18": "Route 7",
+  "19": "Route 8",
+  "20": "Route 9",
+  "21": "Route 10",
+  "22": "Route 11",
+  "23": "Route 12",
+  "24": "Route 13",
+  "25": "Route 14",
+  "26": "Route 15",
+  "27": "Route 16",
+  "28": "Route 17",
+  "29": "Route 18",
+  "30": "Route 19",
+  "31": "Route 20",
+  "32": "Route 21",
+  "33": "Route 22",
+  "34": "Route 23",
+  "35": "Route 24",
+  "36": "Route 25",
+  "37": "Red's House 1F",
+  "38": "Red's House 2F",
+  "39": "Blue's House",
+  "40": "Oak's Lab",
+  "41": "Viridian Pokémon Center",
+  "42": "Viridian Poké Mart",
+  "43": "Viridian School House",
+  "44": "Viridian Nickname House",
+  "45": "Viridian Gym",
+  "46": "Digletts Cave Route 2",
+  "47": "Viridian Forest North Gate",
+  "48": "Route 2 Trade House",
+  "49": "Route 2 Gate",
+  "50": "Viridian Forest South Gate",
+  "51": "Viridian Forest",
+  "52": "Museum 1F",
+  "53": "Museum 2F",
+  "54": "Pewter Gym",
+  "55": "Pewter Nidoran House",
+  "56": "Pewter Poké Mart",
+  "57": "Pewter Speech House",
+  "58": "Pewter Pokémon Center",
+  "59": "Mt. Moon 1F",
+  "60": "Mt. Moon B1F",
+  "61": "Mt. Moon B2F",
+  "62": "Cerulean Trashed House",
+  "63": "Cerulean Trade House",
+  "64": "Cerulean Pokémon Center",
+  "65": "Cerulean Gym",
+  "66": "Bike Shop",
+  "67": "Cerulean Poké Mart",
+  "68": "Mt. Moon Pokémon Center",
+  "69": "Cerulean Trashed House Copy",
+  "70": "Route 5 Gate",
+  "71": "Underground Path Route 5",
+  "72": "Day-Care",
+  "73": "Route 6 Gate",
+  "74": "Underground Path Route 6",
+  "75": "Underground Path Route 6 Copy",
+  "76": "Route 7 Gate",
+  "77": "Underground Path Route 7",
+  "78": "Underground Path Route 7 Copy",
+  "79": "Route 8 Gate",
+  "80": "Underground Path Route 8",
+  "81": "Rock Tunnel Pokémon Center",
+  "82": "Rock Tunnel 1F",
+  "83": "Power Plant",
+  "84": "Route 11 Gate 1F",
+  "85": "Digletts Cave Route 11",
+  "86": "Route 11 Gate 2F",
+  "87": "Route 12 Gate 1F",
+  "88": "Bill's House",
+  "89": "Vermilion Pokémon Center",
+  "90": "Pokémon Fan Club",
+  "91": "Vermilion Poké Mart",
+  "92": "Vermilion Gym",
+  "93": "Vermilion Pidgey House",
+  "94": "Vermilion Dock",
+  "95": "S.S. Anne 1F",
+  "96": "S.S. Anne 2F",
+  "97": "S.S. Anne 3F",
+  "98": "S.S. Anne B1F",
+  "99": "S.S. Anne Bow",
+  "100": "S.S. Anne Kitchen",
+  "101": "S.S. Anne Captain's Room",
+  "102": "S.S. Anne 1F Rooms",
+  "103": "S.S. Anne 2F Rooms",
+  "104": "S.S. Anne B1F Rooms",
+  "108": "Victory Road 1F",
+  "113": "Lance's Room",
+  "118": "Hall of Fame",
+  "119": "Underground Path North South",
+  "120": "Champion's Room",
+  "121": "Underground Path West East",
+  "122": "Celadon Poké Mart 1F",
+  "123": "Celadon Poké Mart 2F",
+  "124": "Celadon Poké Mart 3F",
+  "125": "Celadon Poké Mart 4F",
+  "126": "Celadon Poké Mart Roof",
+  "127": "Celadon Poké Mart Elevator",
+  "128": "Celadon Mansion 1F",
+  "129": "Celadon Mansion 2F",
+  "130": "Celadon Mansion 3F",
+  "131": "Celadon Mansion Roof",
+  "132": "Celadon Mansion Roof House",
+  "133": "Celadon Pokémon Center",
+  "134": "Celadon Gym",
+  "135": "Game Corner",
+  "136": "Celadon Poké Mart 5F",
+  "137": "Game Corner Prize Room",
+  "138": "Celadon Diner",
+  "139": "Celadon Chief House",
+  "140": "Celadon Hotel",
+  "141": "Lavender Pokémon Center",
+  "142": "Pokémon Tower 1F",
+  "143": "Pokémon Tower 2F",
+  "144": "Pokémon Tower 3F",
+  "145": "Pokémon Tower 4F",
+  "146": "Pokémon Tower 5F",
+  "147": "Pokémon Tower 6F",
+  "148": "Pokémon Tower 7F",
+  "149": "Mr. Fuji's House",
+  "150": "Lavender Poké Mart",
+  "151": "Lavender Cubone House",
+  "152": "Fuchsia Poké Mart",
+  "153": "Fuchsia Bills Grandpa's House",
+  "154": "Fuchsia Pokémon Center",
+  "155": "Warden's House",
+  "156": "Safari Zone Gate",
+  "157": "Fuchsia Gym",
+  "158": "Fuchsia Meeting Room",
+  "159": "Seafoam Islands B1F",
+  "160": "Seafoam Islands B2F",
+  "161": "Seafoam Islands B3F",
+  "162": "Seafoam Islands B4F",
+  "163": "Vermilion Old Rod House",
+  "164": "Fuchsia Good Rod House",
+  "165": "Pokémon Mansion 1F",
+  "166": "Cinnabar Gym",
+  "167": "Cinnabar Lab",
+  "168": "Cinnabar Lab Trade Room",
+  "169": "Cinnabar Lab Metronome Room",
+  "170": "Cinnabar Lab Fossil Room",
+  "171": "Cinnabar Pokémon Center",
+  "172": "Cinnabar Poké Mart",
+  "173": "Cinnabar Poké Mart Copy",
+  "174": "Indigo Plateau Lobby",
+  "175": "Copycat's House 1F",
+  "176": "Copycat's House 2F",
+  "177": "Fighting Dojo",
+  "178": "Saffron Gym",
+  "179": "Saffron Pidgey House",
+  "180": "Saffron Poké Mart",
+  "181": "Silph Co. 1F",
+  "182": "Saffron Pokémon Center",
+  "183": "Mr. Psychic's House",
+  "184": "Route 15 Gate 1F",
+  "185": "Route 15 Gate 2F",
+  "186": "Route 16 Gate 1F",
+  "187": "Route 16 Gate 2F",
+  "188": "Route 16 Fly House",
+  "189": "Route 12 Super Rod House",
+  "190": "Route 18 Gate 1F",
+  "191": "Route 18 Gate 2F",
+  "192": "Seafoam Islands 1F",
+  "193": "Route 22 Gate",
+  "194": "Victory Road 2F",
+  "195": "Route 12 Gate 2F",
+  "196": "Vermilion Trade House",
+  "197": "Digletts Cave",
+  "198": "Victory Road 3F",
+  "199": "Rocket Hideout B1F",
+  "200": "Rocket Hideout B2F",
+  "201": "Rocket Hideout B3F",
+  "202": "Rocket Hideout B4F",
+  "203": "Rocket Hideout Elevator",
+  "207": "Silph Co. 2F",
+  "208": "Silph Co. 3F",
+  "209": "Silph Co. 4F",
+  "210": "Silph Co. 5F",
+  "211": "Silph Co. 6F",
+  "212": "Silph Co. 7F",
+  "213": "Silph Co. 8F",
+  "214": "Pokémon Mansion 2F",
+  "215": "Pokémon Mansion 3F",
+  "216": "Pokémon Mansion B1F",
+  "217": "Safari Zone East",
+  "218": "Safari Zone North",
+  "219": "Safari Zone West",
+  "220": "Safari Zone Center",
+  "221": "Safari Zone Center Rest House",
+  "222": "Safari Zone Secret House",
+  "223": "Safari Zone West Rest House",
+  "224": "Safari Zone East Rest House",
+  "225": "Safari Zone North Rest House",
+  "226": "Cerulean Cave 2F",
+  "227": "Cerulean Cave B1F",
+  "228": "Cerulean Cave 1F",
+  "229": "Name Rater's House",
+  "230": "Cerulean Badge House",
+  "232": "Rock Tunnel B1F",
+  "233": "Silph Co. 9F",
+  "234": "Silph Co. 10F",
+  "235": "Silph Co. 11F",
+  "236": "Silph Co. Elevator",
+  "239": "Trade Center",
+  "240": "Colosseum",
+  "245": "Lorelei's Room",
+  "246": "Bruno's Room",
+  "247": "Agatha's Room"
+ },
+ "areas": {
+  "0": "Pallet Town",
+  "1": "Viridian City",
+  "2": "Pewter City",
+  "3": "Cerulean City",
+  "4": "Lavender Town",
+  "5": "Vermilion City",
+  "6": "Celadon City",
+  "7": "Fuchsia City",
+  "8": "Cinnabar Island",
+  "9": "Indigo Plateau",
+  "10": "Saffron City",
+  "12": "Route 1",
+  "13": "Route 2",
+  "14": "Route 3",
+  "15": "Route 4",
+  "16": "Route 5",
+  "17": "Route 6",
+  "18": "Route 7",
+  "19": "Route 8",
+  "20": "Route 9",
+  "21": "Route 10",
+  "22": "Route 11",
+  "23": "Route 12",
+  "24": "Route 13",
+  "25": "Route 14",
+  "26": "Route 15",
+  "27": "Route 16",
+  "28": "Route 17",
+  "29": "Route 18",
+  "30": "Sea Route 19",
+  "31": "Sea Route 20",
+  "32": "Sea Route 21",
+  "33": "Route 22",
+  "34": "Route 23",
+  "35": "Route 24",
+  "36": "Route 25",
+  "37": "Pallet Town",
+  "38": "Pallet Town",
+  "39": "Pallet Town",
+  "40": "Pallet Town",
+  "41": "Viridian City",
+  "42": "Viridian City",
+  "43": "Viridian City",
+  "44": "Viridian City",
+  "45": "Viridian City",
+  "46": "Route 2",
+  "47": "Route 2",
+  "48": "Route 2",
+  "49": "Route 2",
+  "50": "Route 2",
+  "51": "Viridian Forest",
+  "52": "Pewter City",
+  "53": "Pewter City",
+  "54": "Pewter City",
+  "55": "Pewter City",
+  "56": "Pewter City",
+  "57": "Pewter City",
+  "58": "Pewter City",
+  "59": "Mt. Moon",
+  "60": "Mt. Moon",
+  "61": "Mt. Moon",
+  "62": "Cerulean City",
+  "63": "Cerulean City",
+  "64": "Cerulean City",
+  "65": "Cerulean City",
+  "66": "Cerulean City",
+  "67": "Cerulean City",
+  "68": "Route 4",
+  "69": "Cerulean City",
+  "70": "Route 5",
+  "71": "Route 5",
+  "72": "Route 5",
+  "73": "Route 6",
+  "74": "Route 6",
+  "75": "Route 6",
+  "76": "Route 7",
+  "77": "Route 7",
+  "78": "Route 7",
+  "79": "Route 8",
+  "80": "Route 8",
+  "81": "Rock Tunnel",
+  "82": "Rock Tunnel",
+  "83": "Power Plant",
+  "84": "Route 11",
+  "85": "Route 11",
+  "86": "Route 11",
+  "87": "Route 12",
+  "88": "Sea Cottage",
+  "89": "Vermilion City",
+  "90": "Vermilion City",
+  "91": "Vermilion City",
+  "92": "Vermilion City",
+  "93": "Vermilion City",
+  "94": "Vermilion City",
+  "95": "S.S. Anne",
+  "96": "S.S. Anne",
+  "97": "S.S. Anne",
+  "98": "S.S. Anne",
+  "99": "S.S. Anne",
+  "100": "S.S. Anne",
+  "101": "S.S. Anne",
+  "102": "S.S. Anne",
+  "103": "S.S. Anne",
+  "104": "S.S. Anne",
+  "108": "Victory Road",
+  "113": "Pokémon League",
+  "118": "Pokémon League",
+  "119": "Underground Path",
+  "120": "Pokémon League",
+  "121": "Underground Path",
+  "122": "Celadon City",
+  "123": "Celadon City",
+  "124": "Celadon City",
+  "125": "Celadon City",
+  "126": "Celadon City",
+  "127": "Celadon City",
+  "128": "Celadon City",
+  "129": "Celadon City",
+  "130": "Celadon City",
+  "131": "Celadon City",
+  "132": "Celadon City",
+  "133": "Celadon City",
+  "134": "Celadon City",
+  "135": "Celadon City",
+  "136": "Celadon City",
+  "137": "Celadon City",
+  "138": "Celadon City",
+  "139": "Celadon City",
+  "140": "Celadon City",
+  "141": "Lavender Town",
+  "142": "Pokémon Tower",
+  "143": "Pokémon Tower",
+  "144": "Pokémon Tower",
+  "145": "Pokémon Tower",
+  "146": "Pokémon Tower",
+  "147": "Pokémon Tower",
+  "148": "Pokémon Tower",
+  "149": "Lavender Town",
+  "150": "Lavender Town",
+  "151": "Lavender Town",
+  "152": "Fuchsia City",
+  "153": "Fuchsia City",
+  "154": "Fuchsia City",
+  "155": "Fuchsia City",
+  "156": "Safari Zone",
+  "157": "Fuchsia City",
+  "158": "Fuchsia City",
+  "159": "Seafoam Islands",
+  "160": "Seafoam Islands",
+  "161": "Seafoam Islands",
+  "162": "Seafoam Islands",
+  "163": "Vermilion City",
+  "164": "Fuchsia City",
+  "165": "Pokémon Mansion",
+  "166": "Cinnabar Island",
+  "167": "Cinnabar Island",
+  "168": "Cinnabar Island",
+  "169": "Cinnabar Island",
+  "170": "Cinnabar Island",
+  "171": "Cinnabar Island",
+  "172": "Cinnabar Island",
+  "173": "Cinnabar Island",
+  "174": "Indigo Plateau",
+  "175": "Saffron City",
+  "176": "Saffron City",
+  "177": "Saffron City",
+  "178": "Saffron City",
+  "179": "Saffron City",
+  "180": "Saffron City",
+  "181": "Saffron City",
+  "182": "Saffron City",
+  "183": "Saffron City",
+  "184": "Route 15",
+  "185": "Route 15",
+  "186": "Route 16",
+  "187": "Route 16",
+  "188": "Route 16",
+  "189": "Route 12",
+  "190": "Route 18",
+  "191": "Route 18",
+  "192": "Seafoam Islands",
+  "193": "Route 22",
+  "194": "Victory Road",
+  "195": "Route 12",
+  "196": "Vermilion City",
+  "197": "Diglett's Cave",
+  "198": "Victory Road",
+  "199": "Rocket HQ",
+  "200": "Rocket HQ",
+  "201": "Rocket HQ",
+  "202": "Rocket HQ",
+  "203": "Rocket HQ",
+  "207": "Silph Co.",
+  "208": "Silph Co.",
+  "209": "Silph Co.",
+  "210": "Silph Co.",
+  "211": "Silph Co.",
+  "212": "Silph Co.",
+  "213": "Silph Co.",
+  "214": "Pokémon Mansion",
+  "215": "Pokémon Mansion",
+  "216": "Pokémon Mansion",
+  "217": "Safari Zone",
+  "218": "Safari Zone",
+  "219": "Safari Zone",
+  "220": "Safari Zone",
+  "221": "Safari Zone",
+  "222": "Safari Zone",
+  "223": "Safari Zone",
+  "224": "Safari Zone",
+  "225": "Safari Zone",
+  "226": "Cerulean Cave",
+  "227": "Cerulean Cave",
+  "228": "Cerulean Cave",
+  "229": "Lavender Town",
+  "230": "Cerulean City",
+  "232": "Rock Tunnel",
+  "233": "Silph Co.",
+  "234": "Silph Co.",
+  "235": "Silph Co.",
+  "236": "Silph Co.",
+  "239": "Pokémon League",
+  "240": "Pokémon League",
+  "245": "Pokémon League",
+  "246": "Pokémon League",
+  "247": "Pokémon League"
+ },
+ "trainers": {
+  "257": {
+   "name": "Youngster (Route 3)",
+   "maxLevel": 11
+  },
+  "258": {
+   "name": "Youngster (Route 3)",
+   "maxLevel": 14
+  },
+  "259": {
+   "name": "Youngster (Mt. Moon 1F)",
+   "maxLevel": 10
+  },
+  "260": {
+   "name": "Youngster (Route 24)",
+   "maxLevel": 14
+  },
+  "261": {
+   "name": "Youngster (Route 25)",
+   "maxLevel": 15
+  },
+  "262": {
+   "name": "Youngster (Route 25)",
+   "maxLevel": 17
+  },
+  "263": {
+   "name": "Youngster (Route 25)",
+   "maxLevel": 14
+  },
+  "264": {
+   "name": "Youngster (SS Anne 1F Rooms)",
+   "maxLevel": 21
+  },
+  "265": {
+   "name": "Youngster (Route 11)",
+   "maxLevel": 21
+  },
+  "266": {
+   "name": "Youngster (Route 11)",
+   "maxLevel": 19
+  },
+  "267": {
+   "name": "Youngster (Route 11)",
+   "maxLevel": 17
+  },
+  "268": {
+   "name": "Youngster (Route 11)",
+   "maxLevel": 18
+  },
+  "269": {
+   "name": "Youngster",
+   "maxLevel": 17
+  },
+  "513": {
+   "name": "Bug Catcher (Viridian Forest)",
+   "maxLevel": 6
+  },
+  "514": {
+   "name": "Bug Catcher (Viridian Forest)",
+   "maxLevel": 7
+  },
+  "515": {
+   "name": "Bug Catcher (Viridian Forest)",
+   "maxLevel": 9
+  },
+  "516": {
+   "name": "Bug Catcher (Route 3)",
+   "maxLevel": 10
+  },
+  "517": {
+   "name": "Bug Catcher (Route 3)",
+   "maxLevel": 9
+  },
+  "518": {
+   "name": "Bug Catcher (Route 3)",
+   "maxLevel": 11
+  },
+  "519": {
+   "name": "Bug Catcher (Mt. Moon 1F)",
+   "maxLevel": 11
+  },
+  "520": {
+   "name": "Bug Catcher (Mt. Moon 1F)",
+   "maxLevel": 10
+  },
+  "521": {
+   "name": "Bug Catcher (Route 24)",
+   "maxLevel": 14
+  },
+  "522": {
+   "name": "Bug Catcher (Route 6)",
+   "maxLevel": 16
+  },
+  "523": {
+   "name": "Bug Catcher (Route 6)",
+   "maxLevel": 20
+  },
+  "524": {
+   "name": "Bug Catcher",
+   "maxLevel": 18
+  },
+  "525": {
+   "name": "Bug Catcher (Route 9)",
+   "maxLevel": 19
+  },
+  "526": {
+   "name": "Bug Catcher (Route 9)",
+   "maxLevel": 20
+  },
+  "769": {
+   "name": "Lass (Route 3)",
+   "maxLevel": 9
+  },
+  "770": {
+   "name": "Lass (Route 3)",
+   "maxLevel": 10
+  },
+  "771": {
+   "name": "Lass (Route 3)",
+   "maxLevel": 14
+  },
+  "772": {
+   "name": "Lass (Route 4)",
+   "maxLevel": 31
+  },
+  "773": {
+   "name": "Lass (Mt. Moon 1F)",
+   "maxLevel": 11
+  },
+  "774": {
+   "name": "Lass (Mt. Moon 1F)",
+   "maxLevel": 14
+  },
+  "775": {
+   "name": "Lass (Route 24)",
+   "maxLevel": 16
+  },
+  "776": {
+   "name": "Lass (Route 24)",
+   "maxLevel": 14
+  },
+  "777": {
+   "name": "Lass (Route 25)",
+   "maxLevel": 15
+  },
+  "778": {
+   "name": "Lass (Route 25)",
+   "maxLevel": 13
+  },
+  "779": {
+   "name": "Lass (SS Anne 1F Rooms)",
+   "maxLevel": 18
+  },
+  "780": {
+   "name": "Lass (SS Anne 2F Rooms)",
+   "maxLevel": 18
+  },
+  "781": {
+   "name": "Lass (Route 8)",
+   "maxLevel": 23
+  },
+  "782": {
+   "name": "Lass (Route 8)",
+   "maxLevel": 24
+  },
+  "783": {
+   "name": "Lass (Route 8)",
+   "maxLevel": 19
+  },
+  "784": {
+   "name": "Lass (Route 8)",
+   "maxLevel": 22
+  },
+  "785": {
+   "name": "Lass (Celadon Gym)",
+   "maxLevel": 23
+  },
+  "786": {
+   "name": "Lass (Celadon Gym)",
+   "maxLevel": 23
+  },
+  "1025": {
+   "name": "Sailor (SS Anne Stern)",
+   "maxLevel": 18
+  },
+  "1026": {
+   "name": "Sailor (SS Anne Stern)",
+   "maxLevel": 17
+  },
+  "1027": {
+   "name": "Sailor (SS Anne B1F Rooms)",
+   "maxLevel": 21
+  },
+  "1028": {
+   "name": "Sailor (SS Anne B1F Rooms)",
+   "maxLevel": 17
+  },
+  "1029": {
+   "name": "Sailor (SS Anne B1F Rooms)",
+   "maxLevel": 18
+  },
+  "1030": {
+   "name": "Sailor (SS Anne B1F Rooms)",
+   "maxLevel": 17
+  },
+  "1031": {
+   "name": "Sailor (SS Anne B1F Rooms)",
+   "maxLevel": 20
+  },
+  "1032": {
+   "name": "Sailor (Vermilion Gym)",
+   "maxLevel": 21
+  },
+  "1281": {
+   "name": "Jr. Trainer♂ (Pewter Gym)",
+   "maxLevel": 11
+  },
+  "1282": {
+   "name": "Jr. Trainer♂ (Route 24/Route 25)",
+   "maxLevel": 14
+  },
+  "1283": {
+   "name": "Jr. Trainer♂ (Route 24)",
+   "maxLevel": 18
+  },
+  "1284": {
+   "name": "Jr. Trainer♂ (Route 6)",
+   "maxLevel": 20
+  },
+  "1285": {
+   "name": "Jr. Trainer♂ (Route 6)",
+   "maxLevel": 16
+  },
+  "1286": {
+   "name": "Jr. Trainer♂",
+   "maxLevel": 18
+  },
+  "1287": {
+   "name": "Jr. Trainer♂ (Route 9)",
+   "maxLevel": 21
+  },
+  "1288": {
+   "name": "Jr. Trainer♂ (Route 9)",
+   "maxLevel": 19
+  },
+  "1289": {
+   "name": "Jr. Trainer♂ (Route 12)",
+   "maxLevel": 29
+  },
+  "1537": {
+   "name": "Jr. Trainer♀ (Cerulean Gym)",
+   "maxLevel": 19
+  },
+  "1538": {
+   "name": "Jr. Trainer♀ (Route 6)",
+   "maxLevel": 16
+  },
+  "1539": {
+   "name": "Jr. Trainer♀ (Route 6)",
+   "maxLevel": 16
+  },
+  "1540": {
+   "name": "Jr. Trainer♀",
+   "maxLevel": 22
+  },
+  "1541": {
+   "name": "Jr. Trainer♀ (Route 9)",
+   "maxLevel": 18
+  },
+  "1542": {
+   "name": "Jr. Trainer♀ (Route 9)",
+   "maxLevel": 23
+  },
+  "1543": {
+   "name": "Jr. Trainer♀ (Route 10)",
+   "maxLevel": 20
+  },
+  "1544": {
+   "name": "Jr. Trainer♀ (Route 10)",
+   "maxLevel": 21
+  },
+  "1545": {
+   "name": "Jr. Trainer♀ (Rock Tunnel B1F)",
+   "maxLevel": 21
+  },
+  "1546": {
+   "name": "Jr. Trainer♀ (Rock Tunnel B1F)",
+   "maxLevel": 22
+  },
+  "1547": {
+   "name": "Jr. Trainer♀ (Celadon Gym)",
+   "maxLevel": 24
+  },
+  "1548": {
+   "name": "Jr. Trainer♀ (Route 13)",
+   "maxLevel": 24
+  },
+  "1549": {
+   "name": "Jr. Trainer♀ (Route 13)",
+   "maxLevel": 30
+  },
+  "1550": {
+   "name": "Jr. Trainer♀ (Route 13)",
+   "maxLevel": 27
+  },
+  "1551": {
+   "name": "Jr. Trainer♀ (Route 13)",
+   "maxLevel": 28
+  },
+  "1552": {
+   "name": "Jr. Trainer♀ (Route 20)",
+   "maxLevel": 31
+  },
+  "1553": {
+   "name": "Jr. Trainer♀ (Rock Tunnel 1F)",
+   "maxLevel": 22
+  },
+  "1554": {
+   "name": "Jr. Trainer♀ (Rock Tunnel 1F)",
+   "maxLevel": 20
+  },
+  "1555": {
+   "name": "Jr. Trainer♀ (Rock Tunnel 1F)",
+   "maxLevel": 19
+  },
+  "1556": {
+   "name": "Jr. Trainer♀ (Route 15)",
+   "maxLevel": 28
+  },
+  "1557": {
+   "name": "Jr. Trainer♀ (Route 15)",
+   "maxLevel": 29
+  },
+  "1558": {
+   "name": "Jr. Trainer♀ (Route 15)",
+   "maxLevel": 33
+  },
+  "1559": {
+   "name": "Jr. Trainer♀ (Route 15)",
+   "maxLevel": 29
+  },
+  "1560": {
+   "name": "Jr. Trainer♀ (Route 20)",
+   "maxLevel": 30
+  },
+  "1793": {
+   "name": "Pokémaniac (Route 10)",
+   "maxLevel": 30
+  },
+  "1794": {
+   "name": "Pokémaniac (Route 10)",
+   "maxLevel": 20
+  },
+  "1795": {
+   "name": "Pokémaniac (Rock Tunnel B1F)",
+   "maxLevel": 20
+  },
+  "1796": {
+   "name": "Pokémaniac (Rock Tunnel B1F)",
+   "maxLevel": 22
+  },
+  "1797": {
+   "name": "Pokémaniac (Rock Tunnel B1F)",
+   "maxLevel": 25
+  },
+  "1798": {
+   "name": "Pokémaniac (Victory Road 2F)",
+   "maxLevel": 40
+  },
+  "1799": {
+   "name": "Pokémaniac (Rock Tunnel 1F)",
+   "maxLevel": 23
+  },
+  "2049": {
+   "name": "Super Nerd (Mt. Moon 1F)",
+   "maxLevel": 11
+  },
+  "2050": {
+   "name": "Super Nerd (Mt. Moon B2F)",
+   "maxLevel": 12
+  },
+  "2051": {
+   "name": "Super Nerd (Route 8)",
+   "maxLevel": 20
+  },
+  "2052": {
+   "name": "Super Nerd (Route 8)",
+   "maxLevel": 22
+  },
+  "2053": {
+   "name": "Super Nerd (Route 8)",
+   "maxLevel": 26
+  },
+  "2054": {
+   "name": "Super Nerd",
+   "maxLevel": 22
+  },
+  "2055": {
+   "name": "Super Nerd",
+   "maxLevel": 20
+  },
+  "2056": {
+   "name": "Super Nerd",
+   "maxLevel": 24
+  },
+  "2057": {
+   "name": "Super Nerd (Cinnabar Gym)",
+   "maxLevel": 36
+  },
+  "2058": {
+   "name": "Super Nerd (Cinnabar Gym)",
+   "maxLevel": 34
+  },
+  "2059": {
+   "name": "Super Nerd (Cinnabar Gym)",
+   "maxLevel": 41
+  },
+  "2060": {
+   "name": "Super Nerd (Cinnabar Gym)",
+   "maxLevel": 37
+  },
+  "2305": {
+   "name": "Hiker (Mt. Moon 1F)",
+   "maxLevel": 10
+  },
+  "2306": {
+   "name": "Hiker (Route 25)",
+   "maxLevel": 15
+  },
+  "2307": {
+   "name": "Hiker (Route 25)",
+   "maxLevel": 13
+  },
+  "2308": {
+   "name": "Hiker (Route 25)",
+   "maxLevel": 17
+  },
+  "2309": {
+   "name": "Hiker (Route 9)",
+   "maxLevel": 21
+  },
+  "2310": {
+   "name": "Hiker (Route 9)",
+   "maxLevel": 20
+  },
+  "2311": {
+   "name": "Hiker (Route 10)",
+   "maxLevel": 21
+  },
+  "2312": {
+   "name": "Hiker (Route 10)",
+   "maxLevel": 19
+  },
+  "2313": {
+   "name": "Hiker (Rock Tunnel B1F)",
+   "maxLevel": 21
+  },
+  "2314": {
+   "name": "Hiker (Rock Tunnel B1F)",
+   "maxLevel": 25
+  },
+  "2315": {
+   "name": "Hiker (Route 9/Rock Tunnel B1F)",
+   "maxLevel": 20
+  },
+  "2316": {
+   "name": "Hiker (Rock Tunnel 1F)",
+   "maxLevel": 19
+  },
+  "2317": {
+   "name": "Hiker (Rock Tunnel 1F)",
+   "maxLevel": 20
+  },
+  "2318": {
+   "name": "Hiker (Rock Tunnel 1F)",
+   "maxLevel": 21
+  },
+  "2561": {
+   "name": "Biker (Route 13)",
+   "maxLevel": 28
+  },
+  "2562": {
+   "name": "Biker (Route 14)",
+   "maxLevel": 29
+  },
+  "2563": {
+   "name": "Biker (Route 15)",
+   "maxLevel": 25
+  },
+  "2564": {
+   "name": "Biker (Route 15)",
+   "maxLevel": 28
+  },
+  "2565": {
+   "name": "Biker (Route 16)",
+   "maxLevel": 29
+  },
+  "2566": {
+   "name": "Biker (Route 16)",
+   "maxLevel": 33
+  },
+  "2567": {
+   "name": "Biker (Route 16)",
+   "maxLevel": 26
+  },
+  "2568": {
+   "name": "Biker (for MissingNo: 0, 33, MUK, 0, 29, VOLTORB, VOLTORB, 0, ..., 28, GRIMER, GRIMER.)",
+   "maxLevel": 28
+  },
+  "2569": {
+   "name": "Biker (for MissingNo: 0, 33, MUK, 0, 29, VOLTORB, VOLTORB, 0, ..., 28, GRIMER, GRIMER.)",
+   "maxLevel": 33
+  },
+  "2570": {
+   "name": "Biker (for MissingNo: 0, 33, MUK, 0, 29, VOLTORB, VOLTORB, 0, ..., 28, GRIMER, GRIMER.)",
+   "maxLevel": 29
+  },
+  "2571": {
+   "name": "Biker (for MissingNo: 0, 33, MUK, 0, 29, VOLTORB, VOLTORB, 0, ..., 28, GRIMER, GRIMER.)",
+   "maxLevel": 29
+  },
+  "2572": {
+   "name": "Biker (for MissingNo: 0, 33, MUK, 0, 29, VOLTORB, VOLTORB, 0, ..., 28, GRIMER, GRIMER.)",
+   "maxLevel": 25
+  },
+  "2573": {
+   "name": "Biker (Route 14)",
+   "maxLevel": 26
+  },
+  "2574": {
+   "name": "Biker (Route 14)",
+   "maxLevel": 28
+  },
+  "2575": {
+   "name": "Biker (Route 14)",
+   "maxLevel": 29
+  },
+  "2817": {
+   "name": "Burglar",
+   "maxLevel": 29
+  },
+  "2818": {
+   "name": "Burglar",
+   "maxLevel": 33
+  },
+  "2819": {
+   "name": "Burglar",
+   "maxLevel": 28
+  },
+  "2820": {
+   "name": "Burglar (Cinnabar Gym)",
+   "maxLevel": 36
+  },
+  "2821": {
+   "name": "Burglar (Cinnabar Gym)",
+   "maxLevel": 41
+  },
+  "2822": {
+   "name": "Burglar (Cinnabar Gym)",
+   "maxLevel": 37
+  },
+  "2823": {
+   "name": "Burglar (Mansion 2F)",
+   "maxLevel": 34
+  },
+  "2824": {
+   "name": "Burglar (Mansion 3F)",
+   "maxLevel": 38
+  },
+  "2825": {
+   "name": "Burglar (Mansion B1F)",
+   "maxLevel": 34
+  },
+  "3073": {
+   "name": "Engineer",
+   "maxLevel": 21
+  },
+  "3074": {
+   "name": "Engineer (Route 11)",
+   "maxLevel": 21
+  },
+  "3075": {
+   "name": "Engineer (Route 11)",
+   "maxLevel": 18
+  },
+  "3585": {
+   "name": "Fisherman (SS Anne 2F Rooms)",
+   "maxLevel": 17
+  },
+  "3586": {
+   "name": "Fisherman (SS Anne B1F Rooms)",
+   "maxLevel": 17
+  },
+  "3587": {
+   "name": "Fisherman (Route 12)",
+   "maxLevel": 22
+  },
+  "3588": {
+   "name": "Fisherman (Route 12)",
+   "maxLevel": 24
+  },
+  "3589": {
+   "name": "Fisherman (Route 12)",
+   "maxLevel": 27
+  },
+  "3590": {
+   "name": "Fisherman (Route 12)",
+   "maxLevel": 21
+  },
+  "3591": {
+   "name": "Fisherman (Route 21)",
+   "maxLevel": 28
+  },
+  "3592": {
+   "name": "Fisherman (Route 21)",
+   "maxLevel": 31
+  },
+  "3593": {
+   "name": "Fisherman (Route 21)",
+   "maxLevel": 27
+  },
+  "3594": {
+   "name": "Fisherman (Route 21)",
+   "maxLevel": 33
+  },
+  "3595": {
+   "name": "Fisherman (Route 12)",
+   "maxLevel": 24
+  },
+  "3841": {
+   "name": "Swimmer (Cerulean Gym)",
+   "maxLevel": 16
+  },
+  "3842": {
+   "name": "Swimmer (Route 19)",
+   "maxLevel": 30
+  },
+  "3843": {
+   "name": "Swimmer (Route 19)",
+   "maxLevel": 29
+  },
+  "3844": {
+   "name": "Swimmer (Route 19)",
+   "maxLevel": 30
+  },
+  "3845": {
+   "name": "Swimmer (Route 19)",
+   "maxLevel": 27
+  },
+  "3846": {
+   "name": "Swimmer (Route 19)",
+   "maxLevel": 29
+  },
+  "3847": {
+   "name": "Swimmer (Route 19)",
+   "maxLevel": 30
+  },
+  "3848": {
+   "name": "Swimmer (Route 19)",
+   "maxLevel": 27
+  },
+  "3849": {
+   "name": "Swimmer (Route 20)",
+   "maxLevel": 31
+  },
+  "3850": {
+   "name": "Swimmer (Route 20)",
+   "maxLevel": 35
+  },
+  "3851": {
+   "name": "Swimmer (Route 20)",
+   "maxLevel": 28
+  },
+  "3852": {
+   "name": "Swimmer (Route 21)",
+   "maxLevel": 33
+  },
+  "3853": {
+   "name": "Swimmer (Route 21)",
+   "maxLevel": 37
+  },
+  "3854": {
+   "name": "Swimmer (Route 21)",
+   "maxLevel": 33
+  },
+  "3855": {
+   "name": "Swimmer (Route 21)",
+   "maxLevel": 32
+  },
+  "4097": {
+   "name": "Cue Ball (Route 16)",
+   "maxLevel": 28
+  },
+  "4098": {
+   "name": "Cue Ball (Route 16)",
+   "maxLevel": 29
+  },
+  "4099": {
+   "name": "Cue Ball (Route 16)",
+   "maxLevel": 33
+  },
+  "4100": {
+   "name": "Cue Ball (Route 17)",
+   "maxLevel": 29
+  },
+  "4101": {
+   "name": "Cue Ball (Route 17)",
+   "maxLevel": 29
+  },
+  "4102": {
+   "name": "Cue Ball (Route 17)",
+   "maxLevel": 33
+  },
+  "4103": {
+   "name": "Cue Ball (Route 17)",
+   "maxLevel": 26
+  },
+  "4104": {
+   "name": "Cue Ball (Route 17)",
+   "maxLevel": 29
+  },
+  "4105": {
+   "name": "Cue Ball (Route 21)",
+   "maxLevel": 31
+  },
+  "4353": {
+   "name": "Gambler (Route 11)",
+   "maxLevel": 18
+  },
+  "4354": {
+   "name": "Gambler (Route 11)",
+   "maxLevel": 18
+  },
+  "4355": {
+   "name": "Gambler (Route 11)",
+   "maxLevel": 18
+  },
+  "4356": {
+   "name": "Gambler (Route 11)",
+   "maxLevel": 18
+  },
+  "4357": {
+   "name": "Gambler (Route 8)",
+   "maxLevel": 22
+  },
+  "4358": {
+   "name": "Gambler",
+   "maxLevel": 22
+  },
+  "4359": {
+   "name": "Gambler (Route 8)",
+   "maxLevel": 24
+  },
+  "4609": {
+   "name": "Beauty (Celadon Gym)",
+   "maxLevel": 21
+  },
+  "4610": {
+   "name": "Beauty (Celadon Gym)",
+   "maxLevel": 24
+  },
+  "4611": {
+   "name": "Beauty (Celadon Gym)",
+   "maxLevel": 26
+  },
+  "4612": {
+   "name": "Beauty (Route 13)",
+   "maxLevel": 27
+  },
+  "4613": {
+   "name": "Beauty (Route 13)",
+   "maxLevel": 29
+  },
+  "4614": {
+   "name": "Beauty (Route 20)",
+   "maxLevel": 35
+  },
+  "4615": {
+   "name": "Beauty (Route 20)",
+   "maxLevel": 30
+  },
+  "4616": {
+   "name": "Beauty (Route 20)",
+   "maxLevel": 31
+  },
+  "4617": {
+   "name": "Beauty (Route 15)",
+   "maxLevel": 29
+  },
+  "4618": {
+   "name": "Beauty (Route 15)",
+   "maxLevel": 29
+  },
+  "4619": {
+   "name": "Beauty",
+   "maxLevel": 33
+  },
+  "4620": {
+   "name": "Beauty (Route 19)",
+   "maxLevel": 27
+  },
+  "4621": {
+   "name": "Beauty (Route 19)",
+   "maxLevel": 30
+  },
+  "4622": {
+   "name": "Beauty (Route 19)",
+   "maxLevel": 29
+  },
+  "4623": {
+   "name": "Beauty (Route 20)",
+   "maxLevel": 30
+  },
+  "4865": {
+   "name": "Psychic (Saffron Gym)",
+   "maxLevel": 31
+  },
+  "4866": {
+   "name": "Psychic (Saffron Gym)",
+   "maxLevel": 34
+  },
+  "4867": {
+   "name": "Psychic (Saffron Gym)",
+   "maxLevel": 33
+  },
+  "4868": {
+   "name": "Psychic (Saffron Gym)",
+   "maxLevel": 38
+  },
+  "5121": {
+   "name": "Rocker (Vermilion Gym)",
+   "maxLevel": 20
+  },
+  "5122": {
+   "name": "Rocker (Route 12)",
+   "maxLevel": 29
+  },
+  "5377": {
+   "name": "Juggler (Silph Co. 5F)",
+   "maxLevel": 29
+  },
+  "5378": {
+   "name": "Juggler (Victory Road 2F)",
+   "maxLevel": 41
+  },
+  "5379": {
+   "name": "Juggler (Fuchsia Gym)",
+   "maxLevel": 31
+  },
+  "5380": {
+   "name": "Juggler (Fuchsia Gym)",
+   "maxLevel": 34
+  },
+  "5381": {
+   "name": "Juggler (Victory Road 2F)",
+   "maxLevel": 48
+  },
+  "5382": {
+   "name": "Juggler",
+   "maxLevel": 33
+  },
+  "5383": {
+   "name": "Juggler (Fuchsia Gym)",
+   "maxLevel": 38
+  },
+  "5384": {
+   "name": "Juggler (Fuchsia Gym)",
+   "maxLevel": 34
+  },
+  "5633": {
+   "name": "Tamer (Fuchsia Gym)",
+   "maxLevel": 34
+  },
+  "5634": {
+   "name": "Tamer (Fuchsia Gym)",
+   "maxLevel": 33
+  },
+  "5635": {
+   "name": "Tamer (Viridian Gym)",
+   "maxLevel": 43
+  },
+  "5636": {
+   "name": "Tamer (Viridian Gym)",
+   "maxLevel": 39
+  },
+  "5637": {
+   "name": "Tamer (Victory Road 2F)",
+   "maxLevel": 44
+  },
+  "5638": {
+   "name": "Tamer",
+   "maxLevel": 42
+  },
+  "5889": {
+   "name": "Bird Keeper (Route 13)",
+   "maxLevel": 29
+  },
+  "5890": {
+   "name": "Bird Keeper (Route 13)",
+   "maxLevel": 25
+  },
+  "5891": {
+   "name": "Bird Keeper (Route 13)",
+   "maxLevel": 26
+  },
+  "5892": {
+   "name": "Bird Keeper (Route 14)",
+   "maxLevel": 33
+  },
+  "5893": {
+   "name": "Bird Keeper (Route 14)",
+   "maxLevel": 29
+  },
+  "5894": {
+   "name": "Bird Keeper (Route 15)",
+   "maxLevel": 26
+  },
+  "5895": {
+   "name": "Bird Keeper (Route 15)",
+   "maxLevel": 28
+  },
+  "5896": {
+   "name": "Bird Keeper (Route 18)",
+   "maxLevel": 29
+  },
+  "5897": {
+   "name": "Bird Keeper (Route 18)",
+   "maxLevel": 34
+  },
+  "5898": {
+   "name": "Bird Keeper (Route 18)",
+   "maxLevel": 26
+  },
+  "5899": {
+   "name": "Bird Keeper (Route 20)",
+   "maxLevel": 30
+  },
+  "5900": {
+   "name": "Bird Keeper",
+   "maxLevel": 39
+  },
+  "5901": {
+   "name": "Bird Keeper",
+   "maxLevel": 42
+  },
+  "5902": {
+   "name": "Bird Keeper (Route 14)",
+   "maxLevel": 28
+  },
+  "5903": {
+   "name": "Bird Keeper (Route 14)",
+   "maxLevel": 26
+  },
+  "5904": {
+   "name": "Bird Keeper (Route 14)",
+   "maxLevel": 29
+  },
+  "5905": {
+   "name": "Bird Keeper (Route 14)",
+   "maxLevel": 28
+  },
+  "6145": {
+   "name": "Blackbelt (Fighting Dojo)",
+   "maxLevel": 37
+  },
+  "6146": {
+   "name": "Blackbelt (Fighting Dojo)",
+   "maxLevel": 31
+  },
+  "6147": {
+   "name": "Blackbelt (Fighting Dojo)",
+   "maxLevel": 32
+  },
+  "6148": {
+   "name": "Blackbelt (Fighting Dojo)",
+   "maxLevel": 36
+  },
+  "6149": {
+   "name": "Blackbelt (Fighting Dojo)",
+   "maxLevel": 31
+  },
+  "6150": {
+   "name": "Blackbelt (Viridian Gym)",
+   "maxLevel": 40
+  },
+  "6151": {
+   "name": "Blackbelt (Viridian Gym)",
+   "maxLevel": 43
+  },
+  "6152": {
+   "name": "Blackbelt (Viridian Gym)",
+   "maxLevel": 38
+  },
+  "6153": {
+   "name": "Blackbelt (Victory Road 2F)",
+   "maxLevel": 43
+  },
+  "6401": {
+   "name": "Rival",
+   "maxLevel": 5
+  },
+  "6402": {
+   "name": "Rival",
+   "maxLevel": 5
+  },
+  "6403": {
+   "name": "Rival",
+   "maxLevel": 5
+  },
+  "6404": {
+   "name": "Rival (Route 22)",
+   "maxLevel": 9
+  },
+  "6405": {
+   "name": "Rival (Route 22)",
+   "maxLevel": 9
+  },
+  "6406": {
+   "name": "Rival (Route 22)",
+   "maxLevel": 9
+  },
+  "6407": {
+   "name": "Rival (Cerulean City)",
+   "maxLevel": 18
+  },
+  "6408": {
+   "name": "Rival (Cerulean City)",
+   "maxLevel": 18
+  },
+  "6409": {
+   "name": "Rival (Cerulean City)",
+   "maxLevel": 18
+  },
+  "6657": {
+   "name": "Prof. Oak",
+   "maxLevel": 70
+  },
+  "6658": {
+   "name": "Prof. Oak",
+   "maxLevel": 70
+  },
+  "6659": {
+   "name": "Prof. Oak",
+   "maxLevel": 70
+  },
+  "7169": {
+   "name": "Scientist",
+   "maxLevel": 34
+  },
+  "7170": {
+   "name": "Scientist (Silph Co. 2F)",
+   "maxLevel": 26
+  },
+  "7171": {
+   "name": "Scientist (Silph Co. 2F)",
+   "maxLevel": 28
+  },
+  "7172": {
+   "name": "Scientist (Silph Co. 3F/Mansion 1F)",
+   "maxLevel": 29
+  },
+  "7173": {
+   "name": "Scientist (Silph Co. 4F)",
+   "maxLevel": 33
+  },
+  "7174": {
+   "name": "Scientist (Silph Co. 5F)",
+   "maxLevel": 26
+  },
+  "7175": {
+   "name": "Scientist (Silph Co. 6F)",
+   "maxLevel": 25
+  },
+  "7176": {
+   "name": "Scientist (Silph Co. 7F)",
+   "maxLevel": 29
+  },
+  "7177": {
+   "name": "Scientist (Silph Co. 8F)",
+   "maxLevel": 29
+  },
+  "7178": {
+   "name": "Scientist (Silph Co. 9F)",
+   "maxLevel": 28
+  },
+  "7179": {
+   "name": "Scientist (Silph Co. 10F)",
+   "maxLevel": 29
+  },
+  "7180": {
+   "name": "Scientist (Mansion 3F)",
+   "maxLevel": 33
+  },
+  "7181": {
+   "name": "Scientist (Mansion B1F)",
+   "maxLevel": 34
+  },
+  "7425": {
+   "name": "Giovanni (Rocket Hideout B4F)",
+   "maxLevel": 29
+  },
+  "7426": {
+   "name": "Giovanni (Silph Co. 11F)",
+   "maxLevel": 41
+  },
+  "7427": {
+   "name": "Giovanni (Viridian Gym)",
+   "maxLevel": 50
+  },
+  "7681": {
+   "name": "Rocket (Mt. Moon B2F)",
+   "maxLevel": 13
+  },
+  "7682": {
+   "name": "Rocket (Mt. Moon B2F)",
+   "maxLevel": 11
+  },
+  "7683": {
+   "name": "Rocket (Mt. Moon B2F)",
+   "maxLevel": 12
+  },
+  "7684": {
+   "name": "Rocket (Mt. Moon B2F)",
+   "maxLevel": 16
+  },
+  "7685": {
+   "name": "Rocket (Cerulean City)",
+   "maxLevel": 17
+  },
+  "7686": {
+   "name": "Rocket (Route 24)",
+   "maxLevel": 15
+  },
+  "7687": {
+   "name": "Rocket (Game Corner)",
+   "maxLevel": 20
+  },
+  "7688": {
+   "name": "Rocket (Rocket Hideout B1F)",
+   "maxLevel": 21
+  },
+  "7689": {
+   "name": "Rocket (Rocket Hideout B1F)",
+   "maxLevel": 21
+  },
+  "7690": {
+   "name": "Rocket (Rocket Hideout B1F)",
+   "maxLevel": 20
+  },
+  "7691": {
+   "name": "Rocket (Rocket Hideout B1F)",
+   "maxLevel": 19
+  },
+  "7692": {
+   "name": "Rocket (Rocket Hideout B1F)",
+   "maxLevel": 22
+  },
+  "7693": {
+   "name": "Rocket (Rocket Hideout B2F)",
+   "maxLevel": 17
+  },
+  "7694": {
+   "name": "Rocket (Rocket Hideout B3F)",
+   "maxLevel": 20
+  },
+  "7695": {
+   "name": "Rocket (Rocket Hideout B3F)",
+   "maxLevel": 21
+  },
+  "7696": {
+   "name": "Rocket (Rocket Hideout B4F)",
+   "maxLevel": 23
+  },
+  "7697": {
+   "name": "Rocket (Rocket Hideout B4F)",
+   "maxLevel": 23
+  },
+  "7698": {
+   "name": "Rocket (Rocket Hideout B4F)",
+   "maxLevel": 21
+  },
+  "7699": {
+   "name": "Rocket (Pokémon Tower 7F)",
+   "maxLevel": 25
+  },
+  "7700": {
+   "name": "Rocket (Pokémon Tower 7F)",
+   "maxLevel": 26
+  },
+  "7701": {
+   "name": "Rocket (Pokémon Tower 7F)",
+   "maxLevel": 23
+  },
+  "7702": {
+   "name": "Rocket",
+   "maxLevel": 26
+  },
+  "7703": {
+   "name": "Rocket (Silph Co. 2F)",
+   "maxLevel": 29
+  },
+  "7704": {
+   "name": "Rocket (Silph Co. 2F)",
+   "maxLevel": 25
+  },
+  "7705": {
+   "name": "Rocket (Silph Co. 3F)",
+   "maxLevel": 28
+  },
+  "7706": {
+   "name": "Rocket (Silph Co. 4F)",
+   "maxLevel": 29
+  },
+  "7707": {
+   "name": "Rocket (Silph Co. 4F)",
+   "maxLevel": 28
+  },
+  "7708": {
+   "name": "Rocket (Silph Co. 5F)",
+   "maxLevel": 33
+  },
+  "7709": {
+   "name": "Rocket (Silph Co. 5F)",
+   "maxLevel": 33
+  },
+  "7710": {
+   "name": "Rocket (Silph Co. 6F)",
+   "maxLevel": 29
+  },
+  "7711": {
+   "name": "Rocket (Silph Co. 6F)",
+   "maxLevel": 28
+  },
+  "7712": {
+   "name": "Rocket (Silph Co. 7F)",
+   "maxLevel": 26
+  },
+  "7713": {
+   "name": "Rocket (Silph Co. 7F)",
+   "maxLevel": 29
+  },
+  "7714": {
+   "name": "Rocket (Silph Co. 7F)",
+   "maxLevel": 29
+  },
+  "7715": {
+   "name": "Rocket (Silph Co. 8F)",
+   "maxLevel": 26
+  },
+  "7716": {
+   "name": "Rocket (Silph Co. 8F)",
+   "maxLevel": 28
+  },
+  "7717": {
+   "name": "Rocket (Silph Co. 9F)",
+   "maxLevel": 28
+  },
+  "7718": {
+   "name": "Rocket (Silph Co. 9F)",
+   "maxLevel": 28
+  },
+  "7719": {
+   "name": "Rocket (Silph Co. 10F)",
+   "maxLevel": 33
+  },
+  "7720": {
+   "name": "Rocket (Silph Co. 11F)",
+   "maxLevel": 25
+  },
+  "7721": {
+   "name": "Rocket (Silph Co. 11F)",
+   "maxLevel": 32
+  },
+  "7937": {
+   "name": "Cooltrainer♂ (Viridian Gym)",
+   "maxLevel": 39
+  },
+  "7938": {
+   "name": "Cooltrainer♂ (Victory Road 3F)",
+   "maxLevel": 43
+  },
+  "7939": {
+   "name": "Cooltrainer♂ (Victory Road 3F)",
+   "maxLevel": 43
+  },
+  "7940": {
+   "name": "Cooltrainer♂",
+   "maxLevel": 45
+  },
+  "7941": {
+   "name": "Cooltrainer♂ (Victory Road 1F)",
+   "maxLevel": 42
+  },
+  "7942": {
+   "name": "Cooltrainer♂",
+   "maxLevel": 44
+  },
+  "7943": {
+   "name": "Cooltrainer♂",
+   "maxLevel": 49
+  },
+  "7944": {
+   "name": "Cooltrainer♂",
+   "maxLevel": 44
+  },
+  "7945": {
+   "name": "Cooltrainer♂ (Viridian Gym)",
+   "maxLevel": 39
+  },
+  "7946": {
+   "name": "Cooltrainer♂ (Viridian Gym)",
+   "maxLevel": 43
+  },
+  "8193": {
+   "name": "Cooltrainer♀ (Celadon Gym)",
+   "maxLevel": 24
+  },
+  "8194": {
+   "name": "Cooltrainer♀ (Victory Road 3F)",
+   "maxLevel": 43
+  },
+  "8195": {
+   "name": "Cooltrainer♀ (Victory Road 3F)",
+   "maxLevel": 43
+  },
+  "8196": {
+   "name": "Cooltrainer♀",
+   "maxLevel": 46
+  },
+  "8197": {
+   "name": "Cooltrainer♀ (Victory Road 1F)",
+   "maxLevel": 44
+  },
+  "8198": {
+   "name": "Cooltrainer♀",
+   "maxLevel": 45
+  },
+  "8199": {
+   "name": "Cooltrainer♀",
+   "maxLevel": 45
+  },
+  "8200": {
+   "name": "Cooltrainer♀",
+   "maxLevel": 43
+  },
+  "8449": {
+   "name": "Bruno",
+   "maxLevel": 58
+  },
+  "8705": {
+   "name": "Brock",
+   "maxLevel": 14
+  },
+  "8961": {
+   "name": "Misty",
+   "maxLevel": 21
+  },
+  "9217": {
+   "name": "Lt. Surge",
+   "maxLevel": 24
+  },
+  "9473": {
+   "name": "Erika",
+   "maxLevel": 29
+  },
+  "9729": {
+   "name": "Koga",
+   "maxLevel": 43
+  },
+  "9985": {
+   "name": "Blaine",
+   "maxLevel": 47
+  },
+  "10241": {
+   "name": "Sabrina",
+   "maxLevel": 43
+  },
+  "10497": {
+   "name": "Gentleman (SS Anne 1F Rooms)",
+   "maxLevel": 18
+  },
+  "10498": {
+   "name": "Gentleman (SS Anne 1F Rooms)",
+   "maxLevel": 19
+  },
+  "10499": {
+   "name": "Gentleman (SS Anne 2F Rooms/Vermilion Gym)",
+   "maxLevel": 23
+  },
+  "10500": {
+   "name": "Gentleman",
+   "maxLevel": 48
+  },
+  "10501": {
+   "name": "Gentleman (SS Anne 2F Rooms)",
+   "maxLevel": 17
+  },
+  "10753": {
+   "name": "Rival (SS Anne 2F)",
+   "maxLevel": 20
+  },
+  "10754": {
+   "name": "Rival (SS Anne 2F)",
+   "maxLevel": 20
+  },
+  "10755": {
+   "name": "Rival (SS Anne 2F)",
+   "maxLevel": 20
+  },
+  "10756": {
+   "name": "Rival (Pokémon Tower 2F)",
+   "maxLevel": 25
+  },
+  "10757": {
+   "name": "Rival (Pokémon Tower 2F)",
+   "maxLevel": 25
+  },
+  "10758": {
+   "name": "Rival (Pokémon Tower 2F)",
+   "maxLevel": 25
+  },
+  "10759": {
+   "name": "Rival (Silph Co. 7F)",
+   "maxLevel": 40
+  },
+  "10760": {
+   "name": "Rival (Silph Co. 7F)",
+   "maxLevel": 40
+  },
+  "10761": {
+   "name": "Rival (Silph Co. 7F)",
+   "maxLevel": 40
+  },
+  "10762": {
+   "name": "Rival (Route 22)",
+   "maxLevel": 53
+  },
+  "10763": {
+   "name": "Rival (Route 22)",
+   "maxLevel": 53
+  },
+  "10764": {
+   "name": "Rival (Route 22)",
+   "maxLevel": 53
+  },
+  "11009": {
+   "name": "Rival",
+   "maxLevel": 65
+  },
+  "11010": {
+   "name": "Rival",
+   "maxLevel": 65
+  },
+  "11011": {
+   "name": "Rival",
+   "maxLevel": 65
+  },
+  "11265": {
+   "name": "Lorelei",
+   "maxLevel": 56
+  },
+  "11521": {
+   "name": "Channeler",
+   "maxLevel": 22
+  },
+  "11522": {
+   "name": "Channeler",
+   "maxLevel": 24
+  },
+  "11523": {
+   "name": "Channeler",
+   "maxLevel": 23
+  },
+  "11524": {
+   "name": "Channeler",
+   "maxLevel": 24
+  },
+  "11525": {
+   "name": "Channeler (Pokémon Tower 3F)",
+   "maxLevel": 23
+  },
+  "11526": {
+   "name": "Channeler (Pokémon Tower 3F)",
+   "maxLevel": 24
+  },
+  "11527": {
+   "name": "Channeler",
+   "maxLevel": 24
+  },
+  "11528": {
+   "name": "Channeler (Pokémon Tower 3F)",
+   "maxLevel": 22
+  },
+  "11529": {
+   "name": "Channeler (Pokémon Tower 4F)",
+   "maxLevel": 24
+  },
+  "11530": {
+   "name": "Channeler (Pokémon Tower 4F)",
+   "maxLevel": 23
+  },
+  "11531": {
+   "name": "Channeler",
+   "maxLevel": 24
+  },
+  "11532": {
+   "name": "Channeler (Pokémon Tower 4F)",
+   "maxLevel": 22
+  },
+  "11533": {
+   "name": "Channeler",
+   "maxLevel": 24
+  },
+  "11534": {
+   "name": "Channeler (Pokémon Tower 5F)",
+   "maxLevel": 23
+  },
+  "11535": {
+   "name": "Channeler",
+   "maxLevel": 24
+  },
+  "11536": {
+   "name": "Channeler (Pokémon Tower 5F)",
+   "maxLevel": 22
+  },
+  "11537": {
+   "name": "Channeler (Pokémon Tower 5F)",
+   "maxLevel": 24
+  },
+  "11538": {
+   "name": "Channeler (Pokémon Tower 5F)",
+   "maxLevel": 22
+  },
+  "11539": {
+   "name": "Channeler (Pokémon Tower 6F)",
+   "maxLevel": 22
+  },
+  "11540": {
+   "name": "Channeler (Pokémon Tower 6F)",
+   "maxLevel": 24
+  },
+  "11541": {
+   "name": "Channeler (Pokémon Tower 6F)",
+   "maxLevel": 24
+  },
+  "11542": {
+   "name": "Channeler (Saffron Gym)",
+   "maxLevel": 34
+  },
+  "11543": {
+   "name": "Channeler (Saffron Gym)",
+   "maxLevel": 38
+  },
+  "11544": {
+   "name": "Channeler (Saffron Gym)",
+   "maxLevel": 33
+  },
+  "11777": {
+   "name": "Agatha",
+   "maxLevel": 60
+  },
+  "12033": {
+   "name": "Lance",
+   "maxLevel": 62
+  }
+ },
+ "levelCaps": [
+  {
+   "badge": 1,
+   "label": "Brock",
+   "level": 14,
+   "trainerId": 8705
+  },
+  {
+   "badge": 2,
+   "label": "Misty",
+   "level": 21,
+   "trainerId": 8961
+  },
+  {
+   "badge": 3,
+   "label": "Lt. Surge",
+   "level": 24,
+   "trainerId": 9217
+  },
+  {
+   "badge": 4,
+   "label": "Erika",
+   "level": 29,
+   "trainerId": 9473
+  },
+  {
+   "badge": 5,
+   "label": "Koga",
+   "level": 43,
+   "trainerId": 9729
+  },
+  {
+   "badge": 6,
+   "label": "Sabrina",
+   "level": 43,
+   "trainerId": 10241
+  },
+  {
+   "badge": 7,
+   "label": "Blaine",
+   "level": 47,
+   "trainerId": 9985
+  },
+  {
+   "badge": 8,
+   "label": "Giovanni",
+   "level": 50,
+   "trainerId": 7427
+  },
+  {
+   "badge": 9,
+   "label": "Champion (Rival)",
+   "level": 65,
+   "trainerId": 11009
+  }
+ ]
+}

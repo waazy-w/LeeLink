@@ -1,0 +1,3752 @@
+{
+ "$schema": "../schema.json",
+ "id": "emerald-bpee-rev0",
+ "name": "Pokémon Emerald (US)",
+ "generation": 3,
+ "platform": "gba",
+ "engine": "gen3",
+ "match": {
+  "gameCodes": [
+   "BPEE"
+  ],
+  "revisions": [
+   0
+  ],
+  "sha1": [
+   "f3ae088181bf583e55daf962a92bb46f4f1d07b7"
+  ]
+ },
+ "addresses": {
+  "party": 33703148,
+  "partyCount": 33703145,
+  "enemyParty": 33703748,
+  "enemyPartyCount": 33703146,
+  "saveBlock1Ptr": 50355596,
+  "saveBlock2Ptr": 50355600,
+  "storagePtr": 50355604,
+  "main": 50340544,
+  "mapHeader": 33780504,
+  "battleTypeFlags": 33697772,
+  "battleOutcome": 33702714,
+  "trainerOpponentA": 33786826,
+  "battleMons": 33702020,
+  "battlerPartyIndexes": 33701998,
+  "battlersCount": 33701996
+ },
+ "offsets": {
+  "sb1Location": 4,
+  "sb1Flags": 4680,
+  "sb1Vars": 4980,
+  "sb1Money": 1168,
+  "sb2PlayerName": 0,
+  "sb2TrainerId": 10,
+  "sb2EncryptionKey": 168,
+  "mainCallback2": 4,
+  "mainInBattle": 1081,
+  "mainInBattleMask": 2,
+  "mapHeaderMapsec": 20,
+  "storageCurrentBox": 0,
+  "storageBoxes": 4,
+  "storageBoxCount": 14,
+  "storageBoxSize": 30
+ },
+ "code": {
+  "CB2_Overworld": 134766172,
+  "BattleMainCB2": 134448160
+ },
+ "flags": {
+  "badges": [
+   2151,
+   2152,
+   2153,
+   2154,
+   2155,
+   2156,
+   2157,
+   2158
+  ],
+  "trainerFlagsStart": 1280
+ },
+ "locations": {
+  "0": "Littleroot Town",
+  "1": "Oldale Town",
+  "2": "Dewford Town",
+  "3": "Lavaridge Town",
+  "4": "Fallarbor Town",
+  "5": "Verdanturf Town",
+  "6": "Pacifidlog Town",
+  "7": "Petalburg City",
+  "8": "Slateport City",
+  "9": "Mauville City",
+  "10": "Rustboro City",
+  "11": "Fortree City",
+  "12": "Lilycove City",
+  "13": "Mossdeep City",
+  "14": "Sootopolis City",
+  "15": "Ever Grande City",
+  "16": "Route 101",
+  "17": "Route 102",
+  "18": "Route 103",
+  "19": "Route 104",
+  "20": "Route 105",
+  "21": "Route 106",
+  "22": "Route 107",
+  "23": "Route 108",
+  "24": "Route 109",
+  "25": "Route 110",
+  "26": "Route 111",
+  "27": "Route 112",
+  "28": "Route 113",
+  "29": "Route 114",
+  "30": "Route 115",
+  "31": "Route 116",
+  "32": "Route 117",
+  "33": "Route 118",
+  "34": "Route 119",
+  "35": "Route 120",
+  "36": "Route 121",
+  "37": "Route 122",
+  "38": "Route 123",
+  "39": "Route 124",
+  "40": "Route 125",
+  "41": "Route 126",
+  "42": "Route 127",
+  "43": "Route 128",
+  "44": "Route 129",
+  "45": "Route 130",
+  "46": "Route 131",
+  "47": "Route 132",
+  "48": "Route 133",
+  "49": "Route 134",
+  "50": "Underwater",
+  "51": "Underwater",
+  "52": "Underwater",
+  "53": "Underwater",
+  "54": "Underwater",
+  "55": "Granite Cave",
+  "56": "Mt. Chimney",
+  "57": "Safari Zone",
+  "58": "Battle Frontier",
+  "59": "Petalburg Woods",
+  "60": "Rusturf Tunnel",
+  "61": "Abandoned Ship",
+  "62": "New Mauville",
+  "63": "Meteor Falls",
+  "64": "Meteor Falls",
+  "65": "Mt. Pyre",
+  "66": " Hideout",
+  "67": "Shoal Cave",
+  "68": "Seafloor Cavern",
+  "69": "Underwater",
+  "70": "Victory Road",
+  "71": "Mirage Island",
+  "72": "Cave Of Origin",
+  "73": "Southern Island",
+  "74": "Fiery Path",
+  "75": "Fiery Path",
+  "76": "Jagged Pass",
+  "77": "Jagged Pass",
+  "78": "Sealed Chamber",
+  "79": "Underwater",
+  "80": "Scorched Slab",
+  "81": "Island Cave",
+  "82": "Desert Ruins",
+  "83": "Ancient Tomb",
+  "84": "Inside Of Truck",
+  "85": "Sky Pillar",
+  "86": "Secret Base",
+  "88": "Pallet Town",
+  "89": "Viridian City",
+  "90": "Pewter City",
+  "91": "Cerulean City",
+  "92": "Lavender Town",
+  "93": "Vermilion City",
+  "94": "Celadon City",
+  "95": "Fuchsia City",
+  "96": "Cinnabar Island",
+  "97": "Indigo Plateau",
+  "98": "Saffron City",
+  "99": "Route 4",
+  "100": "Route 10",
+  "101": "Route 1",
+  "102": "Route 2",
+  "103": "Route 3",
+  "104": "Route 4",
+  "105": "Route 5",
+  "106": "Route 6",
+  "107": "Route 7",
+  "108": "Route 8",
+  "109": "Route 9",
+  "110": "Route 10",
+  "111": "Route 11",
+  "112": "Route 12",
+  "113": "Route 13",
+  "114": "Route 14",
+  "115": "Route 15",
+  "116": "Route 16",
+  "117": "Route 17",
+  "118": "Route 18",
+  "119": "Route 19",
+  "120": "Route 20",
+  "121": "Route 21",
+  "122": "Route 22",
+  "123": "Route 23",
+  "124": "Route 24",
+  "125": "Route 25",
+  "126": "Viridian Forest",
+  "127": "Mt. Moon",
+  "128": "S.S. Anne",
+  "129": "Underground Path",
+  "130": "Underground Path",
+  "131": "Diglett's Cave",
+  "132": "Victory Road",
+  "133": "Rocket Hideout",
+  "134": "Silph Co.",
+  "135": "PokéMon Mansion",
+  "136": "Safari Zone",
+  "137": "PokéMon League",
+  "138": "Rock Tunnel",
+  "139": "Seafoam Islands",
+  "140": "PokéMon Tower",
+  "141": "Cerulean Cave",
+  "142": "Power Plant",
+  "143": "One Island",
+  "144": "Two Island",
+  "145": "Three Island",
+  "146": "Four Island",
+  "147": "Five Island",
+  "148": "Seven Island",
+  "149": "Six Island",
+  "150": "Kindle Road",
+  "151": "Treasure Beach",
+  "152": "Cape Brink",
+  "153": "Bond Bridge",
+  "154": "Three Isle Port",
+  "155": "Sevii Isle 6",
+  "156": "Sevii Isle 7",
+  "157": "Sevii Isle 8",
+  "158": "Sevii Isle 9",
+  "159": "Resort Gorgeous",
+  "160": "Water Labyrinth",
+  "161": "Five Isle Meadow",
+  "162": "Memorial Pillar",
+  "163": "Outcast Island",
+  "164": "Green Path",
+  "165": "Water Path",
+  "166": "Ruin Valley",
+  "167": "Trainer Tower",
+  "168": "Canyon Entrance",
+  "169": "Sevault Canyon",
+  "170": "Tanoby Ruins",
+  "171": "Sevii Isle 22",
+  "172": "Sevii Isle 23",
+  "173": "Sevii Isle 24",
+  "174": "Navel Rock",
+  "175": "Mt. Ember",
+  "176": "Berry Forest",
+  "177": "Icefall Cave",
+  "178": "Rocket Warehouse",
+  "179": "Trainer Tower",
+  "180": "Dotted Hole",
+  "181": "Lost Cave",
+  "182": "Pattern Bush",
+  "183": "Altering Cave",
+  "184": "Tanoby Chambers",
+  "185": "Three Isle Path",
+  "186": "Tanoby Key",
+  "187": "Birth Island",
+  "188": "Monean Chamber",
+  "189": "Liptoo Chamber",
+  "190": "Weepth Chamber",
+  "191": "Dilford Chamber",
+  "192": "Scufib Chamber",
+  "193": "Rixy Chamber",
+  "194": "Viapois Chamber",
+  "195": "Ember Spa",
+  "196": "Special Area",
+  "197": "Aqua Hideout",
+  "198": "Magma Hideout",
+  "199": "Mirage Tower",
+  "200": "Birth Island",
+  "201": "Faraway Island",
+  "202": "Artisan Cave",
+  "203": "Marine Cave",
+  "204": "Underwater",
+  "205": "Terra Cave",
+  "206": "Underwater",
+  "207": "Underwater",
+  "208": "Underwater",
+  "209": "Desert Underpass",
+  "210": "Altering Cave",
+  "211": "Navel Rock",
+  "212": "Trainer Hill"
+ },
+ "trainers": {
+  "1": {
+   "name": "Hiker Sawyer",
+   "maxLevel": 21
+  },
+  "2": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 32
+  },
+  "3": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 31
+  },
+  "4": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 32
+  },
+  "5": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 32
+  },
+  "6": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 36
+  },
+  "7": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 36
+  },
+  "8": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 36
+  },
+  "9": {
+   "name": "Breeder Gabrielle",
+   "maxLevel": 26
+  },
+  "10": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 9
+  },
+  "11": {
+   "name": "Cooltrainer Marcel",
+   "maxLevel": 29
+  },
+  "12": {
+   "name": "Bird Keeper Alberto",
+   "maxLevel": 30
+  },
+  "13": {
+   "name": "Collector Ed",
+   "maxLevel": 30
+  },
+  "14": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 36
+  },
+  "15": {
+   "name": "Swimmer♂ Declan",
+   "maxLevel": 34
+  },
+  "16": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 11
+  },
+  "17": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 27
+  },
+  "18": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 27
+  },
+  "19": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 26
+  },
+  "20": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 15
+  },
+  "21": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 14
+  },
+  "22": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 32
+  },
+  "23": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 32
+  },
+  "24": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 32
+  },
+  "25": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 30
+  },
+  "26": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 28
+  },
+  "27": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 32
+  },
+  "28": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 32
+  },
+  "29": {
+   "name": "Expert Fredrick",
+   "maxLevel": 30
+  },
+  "30": {
+   "name": "Aqua Admin Matt",
+   "maxLevel": 34
+  },
+  "31": {
+   "name": "Black Belt Zander",
+   "maxLevel": 31
+  },
+  "32": {
+   "name": "Aqua Admin Shelly",
+   "maxLevel": 28
+  },
+  "33": {
+   "name": "Aqua Admin Shelly",
+   "maxLevel": 37
+  },
+  "34": {
+   "name": "Aqua Leader Archie",
+   "maxLevel": 43
+  },
+  "35": {
+   "name": "Hex Maniac Leah",
+   "maxLevel": 31
+  },
+  "36": {
+   "name": "Aroma Lady Daisy",
+   "maxLevel": 14
+  },
+  "37": {
+   "name": "Aroma Lady Rose",
+   "maxLevel": 14
+  },
+  "38": {
+   "name": "Cooltrainer Felix",
+   "maxLevel": 43
+  },
+  "39": {
+   "name": "Aroma Lady Violet",
+   "maxLevel": 26
+  },
+  "40": {
+   "name": "Aroma Lady Rose",
+   "maxLevel": 26
+  },
+  "41": {
+   "name": "Aroma Lady Rose",
+   "maxLevel": 28
+  },
+  "42": {
+   "name": "Aroma Lady Rose",
+   "maxLevel": 31
+  },
+  "43": {
+   "name": "Aroma Lady Rose",
+   "maxLevel": 34
+  },
+  "44": {
+   "name": "Ruin Maniac Dusty",
+   "maxLevel": 23
+  },
+  "45": {
+   "name": "Ruin Maniac Chip",
+   "maxLevel": 27
+  },
+  "46": {
+   "name": "Ruin Maniac Foster",
+   "maxLevel": 25
+  },
+  "47": {
+   "name": "Ruin Maniac Dusty",
+   "maxLevel": 27
+  },
+  "48": {
+   "name": "Ruin Maniac Dusty",
+   "maxLevel": 30
+  },
+  "49": {
+   "name": "Ruin Maniac Dusty",
+   "maxLevel": 33
+  },
+  "50": {
+   "name": "Ruin Maniac Dusty",
+   "maxLevel": 36
+  },
+  "51": {
+   "name": "Interviewer Gabby & Ty",
+   "maxLevel": 17
+  },
+  "52": {
+   "name": "Interviewer Gabby & Ty",
+   "maxLevel": 27
+  },
+  "53": {
+   "name": "Interviewer Gabby & Ty",
+   "maxLevel": 30
+  },
+  "54": {
+   "name": "Interviewer Gabby & Ty",
+   "maxLevel": 33
+  },
+  "55": {
+   "name": "Interviewer Gabby & Ty",
+   "maxLevel": 36
+  },
+  "56": {
+   "name": "Interviewer Gabby & Ty",
+   "maxLevel": 39
+  },
+  "57": {
+   "name": "Tuber Lola",
+   "maxLevel": 12
+  },
+  "58": {
+   "name": "Tuber Austina",
+   "maxLevel": 26
+  },
+  "59": {
+   "name": "Tuber Gwen",
+   "maxLevel": 26
+  },
+  "60": {
+   "name": "Tuber Lola",
+   "maxLevel": 26
+  },
+  "61": {
+   "name": "Tuber Lola",
+   "maxLevel": 29
+  },
+  "62": {
+   "name": "Tuber Lola",
+   "maxLevel": 32
+  },
+  "63": {
+   "name": "Tuber Lola",
+   "maxLevel": 35
+  },
+  "64": {
+   "name": "Tuber Ricky",
+   "maxLevel": 13
+  },
+  "65": {
+   "name": "Tuber Simon",
+   "maxLevel": 12
+  },
+  "66": {
+   "name": "Tuber Charlie",
+   "maxLevel": 26
+  },
+  "67": {
+   "name": "Tuber Ricky",
+   "maxLevel": 27
+  },
+  "68": {
+   "name": "Tuber Ricky",
+   "maxLevel": 30
+  },
+  "69": {
+   "name": "Tuber Ricky",
+   "maxLevel": 33
+  },
+  "70": {
+   "name": "Tuber Ricky",
+   "maxLevel": 36
+  },
+  "71": {
+   "name": "Cooltrainer Randall",
+   "maxLevel": 26
+  },
+  "72": {
+   "name": "Cooltrainer Parker",
+   "maxLevel": 26
+  },
+  "73": {
+   "name": "Cooltrainer George",
+   "maxLevel": 26
+  },
+  "74": {
+   "name": "Cooltrainer Berke",
+   "maxLevel": 26
+  },
+  "75": {
+   "name": "Cooltrainer Braxton",
+   "maxLevel": 28
+  },
+  "76": {
+   "name": "Cooltrainer Vincent",
+   "maxLevel": 44
+  },
+  "77": {
+   "name": "Cooltrainer Leroy",
+   "maxLevel": 46
+  },
+  "78": {
+   "name": "Cooltrainer Wilton",
+   "maxLevel": 17
+  },
+  "79": {
+   "name": "Cooltrainer Edgar",
+   "maxLevel": 43
+  },
+  "80": {
+   "name": "Cooltrainer Albert",
+   "maxLevel": 43
+  },
+  "81": {
+   "name": "Cooltrainer Samuel",
+   "maxLevel": 42
+  },
+  "82": {
+   "name": "Cooltrainer Vito",
+   "maxLevel": 42
+  },
+  "83": {
+   "name": "Cooltrainer Owen",
+   "maxLevel": 42
+  },
+  "84": {
+   "name": "Cooltrainer Wilton",
+   "maxLevel": 26
+  },
+  "85": {
+   "name": "Cooltrainer Wilton",
+   "maxLevel": 29
+  },
+  "86": {
+   "name": "Cooltrainer Wilton",
+   "maxLevel": 32
+  },
+  "87": {
+   "name": "Cooltrainer Wilton",
+   "maxLevel": 35
+  },
+  "88": {
+   "name": "Cooltrainer Warren",
+   "maxLevel": 33
+  },
+  "89": {
+   "name": "Cooltrainer Mary",
+   "maxLevel": 26
+  },
+  "90": {
+   "name": "Cooltrainer Alexia",
+   "maxLevel": 26
+  },
+  "91": {
+   "name": "Cooltrainer Jody",
+   "maxLevel": 26
+  },
+  "92": {
+   "name": "Cooltrainer Wendy",
+   "maxLevel": 29
+  },
+  "93": {
+   "name": "Cooltrainer Keira",
+   "maxLevel": 45
+  },
+  "94": {
+   "name": "Cooltrainer Brooke",
+   "maxLevel": 17
+  },
+  "95": {
+   "name": "Cooltrainer Jennifer",
+   "maxLevel": 30
+  },
+  "96": {
+   "name": "Cooltrainer Hope",
+   "maxLevel": 45
+  },
+  "97": {
+   "name": "Cooltrainer Shannon",
+   "maxLevel": 45
+  },
+  "98": {
+   "name": "Cooltrainer Michelle",
+   "maxLevel": 42
+  },
+  "99": {
+   "name": "Cooltrainer Caroline",
+   "maxLevel": 43
+  },
+  "100": {
+   "name": "Cooltrainer Julie",
+   "maxLevel": 42
+  },
+  "101": {
+   "name": "Cooltrainer Brooke",
+   "maxLevel": 26
+  },
+  "102": {
+   "name": "Cooltrainer Brooke",
+   "maxLevel": 29
+  },
+  "103": {
+   "name": "Cooltrainer Brooke",
+   "maxLevel": 32
+  },
+  "104": {
+   "name": "Cooltrainer Brooke",
+   "maxLevel": 34
+  },
+  "105": {
+   "name": "Hex Maniac Patricia",
+   "maxLevel": 41
+  },
+  "106": {
+   "name": "Hex Maniac Kindra",
+   "maxLevel": 30
+  },
+  "107": {
+   "name": "Hex Maniac Tammy",
+   "maxLevel": 29
+  },
+  "108": {
+   "name": "Hex Maniac Valerie",
+   "maxLevel": 32
+  },
+  "109": {
+   "name": "Hex Maniac Tasha",
+   "maxLevel": 32
+  },
+  "110": {
+   "name": "Hex Maniac Valerie",
+   "maxLevel": 31
+  },
+  "111": {
+   "name": "Hex Maniac Valerie",
+   "maxLevel": 35
+  },
+  "112": {
+   "name": "Hex Maniac Valerie",
+   "maxLevel": 40
+  },
+  "113": {
+   "name": "Hex Maniac Valerie",
+   "maxLevel": 42
+  },
+  "114": {
+   "name": "Lady Cindy",
+   "maxLevel": 7
+  },
+  "115": {
+   "name": "Lady Daphne",
+   "maxLevel": 39
+  },
+  "116": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 30
+  },
+  "117": {
+   "name": "Lady Cindy",
+   "maxLevel": 11
+  },
+  "118": {
+   "name": "Lady Brianna",
+   "maxLevel": 40
+  },
+  "119": {
+   "name": "Lady Naomi",
+   "maxLevel": 45
+  },
+  "120": {
+   "name": "Lady Cindy",
+   "maxLevel": 27
+  },
+  "121": {
+   "name": "Lady Cindy",
+   "maxLevel": 30
+  },
+  "122": {
+   "name": "Lady Cindy",
+   "maxLevel": 33
+  },
+  "123": {
+   "name": "Lady Cindy",
+   "maxLevel": 36
+  },
+  "124": {
+   "name": "Beauty Melissa",
+   "maxLevel": 21
+  },
+  "125": {
+   "name": "Beauty Sheila",
+   "maxLevel": 21
+  },
+  "126": {
+   "name": "Beauty Shirley",
+   "maxLevel": 21
+  },
+  "127": {
+   "name": "Beauty Jessica",
+   "maxLevel": 29
+  },
+  "128": {
+   "name": "Beauty Connie",
+   "maxLevel": 40
+  },
+  "129": {
+   "name": "Beauty Bridget",
+   "maxLevel": 40
+  },
+  "130": {
+   "name": "Beauty Olivia",
+   "maxLevel": 39
+  },
+  "131": {
+   "name": "Beauty Tiffany",
+   "maxLevel": 39
+  },
+  "132": {
+   "name": "Beauty Jessica",
+   "maxLevel": 35
+  },
+  "133": {
+   "name": "Beauty Jessica",
+   "maxLevel": 38
+  },
+  "134": {
+   "name": "Beauty Jessica",
+   "maxLevel": 41
+  },
+  "135": {
+   "name": "Beauty Jessica",
+   "maxLevel": 44
+  },
+  "136": {
+   "name": "Rich Boy Winston",
+   "maxLevel": 7
+  },
+  "137": {
+   "name": "Expert Mollie",
+   "maxLevel": 33
+  },
+  "138": {
+   "name": "Rich Boy Garret",
+   "maxLevel": 45
+  },
+  "139": {
+   "name": "Rich Boy Winston",
+   "maxLevel": 27
+  },
+  "140": {
+   "name": "Rich Boy Winston",
+   "maxLevel": 30
+  },
+  "141": {
+   "name": "Rich Boy Winston",
+   "maxLevel": 33
+  },
+  "142": {
+   "name": "Rich Boy Winston",
+   "maxLevel": 36
+  },
+  "143": {
+   "name": "PokéManiac Steve",
+   "maxLevel": 19
+  },
+  "144": {
+   "name": "Beauty Thalia",
+   "maxLevel": 25
+  },
+  "145": {
+   "name": "PokéManiac Mark",
+   "maxLevel": 31
+  },
+  "146": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 20
+  },
+  "147": {
+   "name": "PokéManiac Steve",
+   "maxLevel": 27
+  },
+  "148": {
+   "name": "PokéManiac Steve",
+   "maxLevel": 29
+  },
+  "149": {
+   "name": "PokéManiac Steve",
+   "maxLevel": 32
+  },
+  "150": {
+   "name": "PokéManiac Steve",
+   "maxLevel": 35
+  },
+  "151": {
+   "name": "Swimmer♂ Luis",
+   "maxLevel": 26
+  },
+  "152": {
+   "name": "Swimmer♂ Dominik",
+   "maxLevel": 26
+  },
+  "153": {
+   "name": "Swimmer♂ Douglas",
+   "maxLevel": 24
+  },
+  "154": {
+   "name": "Swimmer♂ Darrin",
+   "maxLevel": 24
+  },
+  "155": {
+   "name": "Swimmer♂ Tony",
+   "maxLevel": 26
+  },
+  "156": {
+   "name": "Swimmer♂ Jerome",
+   "maxLevel": 26
+  },
+  "157": {
+   "name": "Swimmer♂ Matthew",
+   "maxLevel": 26
+  },
+  "158": {
+   "name": "Swimmer♂ David",
+   "maxLevel": 25
+  },
+  "159": {
+   "name": "Swimmer♂ Spencer",
+   "maxLevel": 33
+  },
+  "160": {
+   "name": "Swimmer♂ Roland",
+   "maxLevel": 34
+  },
+  "161": {
+   "name": "Swimmer♂ Nolen",
+   "maxLevel": 34
+  },
+  "162": {
+   "name": "Swimmer♂ Stan",
+   "maxLevel": 34
+  },
+  "163": {
+   "name": "Swimmer♂ Barry",
+   "maxLevel": 34
+  },
+  "164": {
+   "name": "Swimmer♂ Dean",
+   "maxLevel": 31
+  },
+  "165": {
+   "name": "Swimmer♂ Rodney",
+   "maxLevel": 34
+  },
+  "166": {
+   "name": "Swimmer♂ Richard",
+   "maxLevel": 34
+  },
+  "167": {
+   "name": "Swimmer♂ Herman",
+   "maxLevel": 33
+  },
+  "168": {
+   "name": "Swimmer♂ Santiago",
+   "maxLevel": 33
+  },
+  "169": {
+   "name": "Swimmer♂ Gilbert",
+   "maxLevel": 34
+  },
+  "170": {
+   "name": "Swimmer♂ Franklin",
+   "maxLevel": 34
+  },
+  "171": {
+   "name": "Swimmer♂ Kevin",
+   "maxLevel": 34
+  },
+  "172": {
+   "name": "Swimmer♂ Jack",
+   "maxLevel": 34
+  },
+  "173": {
+   "name": "Swimmer♂ Dudley",
+   "maxLevel": 33
+  },
+  "174": {
+   "name": "Swimmer♂ Chad",
+   "maxLevel": 33
+  },
+  "175": {
+   "name": "Swimmer♂ Tony",
+   "maxLevel": 30
+  },
+  "176": {
+   "name": "Swimmer♂ Tony",
+   "maxLevel": 33
+  },
+  "177": {
+   "name": "Swimmer♂ Tony",
+   "maxLevel": 36
+  },
+  "178": {
+   "name": "Swimmer♂ Tony",
+   "maxLevel": 39
+  },
+  "179": {
+   "name": "Black Belt Takao",
+   "maxLevel": 13
+  },
+  "180": {
+   "name": "Black Belt Hitoshi",
+   "maxLevel": 32
+  },
+  "181": {
+   "name": "Black Belt Kiyo",
+   "maxLevel": 34
+  },
+  "182": {
+   "name": "Black Belt Koichi",
+   "maxLevel": 28
+  },
+  "183": {
+   "name": "Black Belt Nob",
+   "maxLevel": 19
+  },
+  "184": {
+   "name": "Black Belt Nob",
+   "maxLevel": 27
+  },
+  "185": {
+   "name": "Black Belt Nob",
+   "maxLevel": 29
+  },
+  "186": {
+   "name": "Black Belt Nob",
+   "maxLevel": 31
+  },
+  "187": {
+   "name": "Black Belt Nob",
+   "maxLevel": 33
+  },
+  "188": {
+   "name": "Black Belt Yuji",
+   "maxLevel": 26
+  },
+  "189": {
+   "name": "Black Belt Daisuke",
+   "maxLevel": 19
+  },
+  "190": {
+   "name": "Black Belt Atsushi",
+   "maxLevel": 32
+  },
+  "191": {
+   "name": "Guitarist Kirk",
+   "maxLevel": 17
+  },
+  "192": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 31
+  },
+  "193": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 32
+  },
+  "194": {
+   "name": "Guitarist Shawn",
+   "maxLevel": 17
+  },
+  "195": {
+   "name": "Guitarist Fernando",
+   "maxLevel": 30
+  },
+  "196": {
+   "name": "Guitarist Dalton",
+   "maxLevel": 15
+  },
+  "197": {
+   "name": "Guitarist Dalton",
+   "maxLevel": 25
+  },
+  "198": {
+   "name": "Guitarist Dalton",
+   "maxLevel": 28
+  },
+  "199": {
+   "name": "Guitarist Dalton",
+   "maxLevel": 31
+  },
+  "200": {
+   "name": "Guitarist Dalton",
+   "maxLevel": 34
+  },
+  "201": {
+   "name": "Kindler Cole",
+   "maxLevel": 23
+  },
+  "202": {
+   "name": "Kindler Jeff",
+   "maxLevel": 22
+  },
+  "203": {
+   "name": "Kindler Axle",
+   "maxLevel": 23
+  },
+  "204": {
+   "name": "Kindler Jace",
+   "maxLevel": 23
+  },
+  "205": {
+   "name": "Kindler Keegan",
+   "maxLevel": 23
+  },
+  "206": {
+   "name": "Kindler Bernie",
+   "maxLevel": 18
+  },
+  "207": {
+   "name": "Kindler Bernie",
+   "maxLevel": 26
+  },
+  "208": {
+   "name": "Kindler Bernie",
+   "maxLevel": 29
+  },
+  "209": {
+   "name": "Kindler Bernie",
+   "maxLevel": 32
+  },
+  "210": {
+   "name": "Kindler Bernie",
+   "maxLevel": 35
+  },
+  "211": {
+   "name": "Camper Drew",
+   "maxLevel": 23
+  },
+  "212": {
+   "name": "Camper Beau",
+   "maxLevel": 21
+  },
+  "213": {
+   "name": "Camper Larry",
+   "maxLevel": 18
+  },
+  "214": {
+   "name": "Camper Shane",
+   "maxLevel": 18
+  },
+  "215": {
+   "name": "Camper Justin",
+   "maxLevel": 24
+  },
+  "216": {
+   "name": "Camper Ethan",
+   "maxLevel": 20
+  },
+  "217": {
+   "name": "Picnicker Autumn",
+   "maxLevel": 21
+  },
+  "218": {
+   "name": "Camper Travis",
+   "maxLevel": 18
+  },
+  "219": {
+   "name": "Camper Ethan",
+   "maxLevel": 26
+  },
+  "220": {
+   "name": "Camper Ethan",
+   "maxLevel": 29
+  },
+  "221": {
+   "name": "Camper Ethan",
+   "maxLevel": 31
+  },
+  "222": {
+   "name": "Camper Ethan",
+   "maxLevel": 34
+  },
+  "223": {
+   "name": "Bug Maniac Brent",
+   "maxLevel": 26
+  },
+  "224": {
+   "name": "Bug Maniac Donald",
+   "maxLevel": 24
+  },
+  "225": {
+   "name": "Bug Maniac Taylor",
+   "maxLevel": 27
+  },
+  "226": {
+   "name": "Bug Maniac Jeffrey",
+   "maxLevel": 27
+  },
+  "227": {
+   "name": "Bug Maniac Derek",
+   "maxLevel": 16
+  },
+  "228": {
+   "name": "Bug Maniac Jeffrey",
+   "maxLevel": 31
+  },
+  "229": {
+   "name": "Bug Maniac Jeffrey",
+   "maxLevel": 34
+  },
+  "230": {
+   "name": "Bug Maniac Jeffrey",
+   "maxLevel": 36
+  },
+  "231": {
+   "name": "Bug Maniac Jeffrey",
+   "maxLevel": 38
+  },
+  "232": {
+   "name": "Psychic Edward",
+   "maxLevel": 15
+  },
+  "233": {
+   "name": "Psychic Preston",
+   "maxLevel": 36
+  },
+  "234": {
+   "name": "Psychic Virgil",
+   "maxLevel": 36
+  },
+  "235": {
+   "name": "Psychic Blake",
+   "maxLevel": 36
+  },
+  "236": {
+   "name": "Psychic William",
+   "maxLevel": 26
+  },
+  "237": {
+   "name": "Psychic Joshua",
+   "maxLevel": 41
+  },
+  "238": {
+   "name": "Psychic Cameron",
+   "maxLevel": 31
+  },
+  "239": {
+   "name": "Psychic Cameron",
+   "maxLevel": 33
+  },
+  "240": {
+   "name": "Psychic Cameron",
+   "maxLevel": 38
+  },
+  "241": {
+   "name": "Psychic Cameron",
+   "maxLevel": 41
+  },
+  "242": {
+   "name": "Psychic Cameron",
+   "maxLevel": 45
+  },
+  "243": {
+   "name": "Psychic Jaclyn",
+   "maxLevel": 16
+  },
+  "244": {
+   "name": "Psychic Hannah",
+   "maxLevel": 36
+  },
+  "245": {
+   "name": "Psychic Samantha",
+   "maxLevel": 36
+  },
+  "246": {
+   "name": "Psychic Maura",
+   "maxLevel": 36
+  },
+  "247": {
+   "name": "Psychic Kayla",
+   "maxLevel": 26
+  },
+  "248": {
+   "name": "Psychic Alexis",
+   "maxLevel": 41
+  },
+  "249": {
+   "name": "Psychic Jacki",
+   "maxLevel": 30
+  },
+  "250": {
+   "name": "Psychic Jacki",
+   "maxLevel": 34
+  },
+  "251": {
+   "name": "Psychic Jacki",
+   "maxLevel": 37
+  },
+  "252": {
+   "name": "Psychic Jacki",
+   "maxLevel": 40
+  },
+  "253": {
+   "name": "Psychic Jacki",
+   "maxLevel": 43
+  },
+  "254": {
+   "name": "Gentleman Walter",
+   "maxLevel": 29
+  },
+  "255": {
+   "name": "Gentleman Micah",
+   "maxLevel": 44
+  },
+  "256": {
+   "name": "Gentleman Thomas",
+   "maxLevel": 45
+  },
+  "257": {
+   "name": "Gentleman Walter",
+   "maxLevel": 34
+  },
+  "258": {
+   "name": "Gentleman Walter",
+   "maxLevel": 36
+  },
+  "259": {
+   "name": "Gentleman Walter",
+   "maxLevel": 39
+  },
+  "260": {
+   "name": "Gentleman Walter",
+   "maxLevel": 41
+  },
+  "261": {
+   "name": "Elite Four Sidney",
+   "maxLevel": 49
+  },
+  "262": {
+   "name": "Elite Four Phoebe",
+   "maxLevel": 51
+  },
+  "263": {
+   "name": "Elite Four Glacia",
+   "maxLevel": 53
+  },
+  "264": {
+   "name": "Elite Four Drake",
+   "maxLevel": 55
+  },
+  "265": {
+   "name": "Leader Roxanne",
+   "maxLevel": 15
+  },
+  "266": {
+   "name": "Leader Brawly",
+   "maxLevel": 19
+  },
+  "267": {
+   "name": "Leader Wattson",
+   "maxLevel": 24
+  },
+  "268": {
+   "name": "Leader Flannery",
+   "maxLevel": 29
+  },
+  "269": {
+   "name": "Leader Norman",
+   "maxLevel": 31
+  },
+  "270": {
+   "name": "Leader Winona",
+   "maxLevel": 33
+  },
+  "271": {
+   "name": "Leader Tate&Liza",
+   "maxLevel": 42
+  },
+  "272": {
+   "name": "Leader Juan",
+   "maxLevel": 46
+  },
+  "273": {
+   "name": "School Kid Jerry",
+   "maxLevel": 9
+  },
+  "274": {
+   "name": "School Kid Ted",
+   "maxLevel": 17
+  },
+  "275": {
+   "name": "School Kid Paul",
+   "maxLevel": 15
+  },
+  "276": {
+   "name": "School Kid Jerry",
+   "maxLevel": 26
+  },
+  "277": {
+   "name": "School Kid Jerry",
+   "maxLevel": 29
+  },
+  "278": {
+   "name": "School Kid Jerry",
+   "maxLevel": 32
+  },
+  "279": {
+   "name": "School Kid Jerry",
+   "maxLevel": 34
+  },
+  "280": {
+   "name": "School Kid Karen",
+   "maxLevel": 9
+  },
+  "281": {
+   "name": "School Kid Georgia",
+   "maxLevel": 16
+  },
+  "282": {
+   "name": "School Kid Karen",
+   "maxLevel": 26
+  },
+  "283": {
+   "name": "School Kid Karen",
+   "maxLevel": 29
+  },
+  "284": {
+   "name": "School Kid Karen",
+   "maxLevel": 32
+  },
+  "285": {
+   "name": "School Kid Karen",
+   "maxLevel": 35
+  },
+  "286": {
+   "name": "Sr. And Jr. Kate & Joy",
+   "maxLevel": 32
+  },
+  "287": {
+   "name": "Sr. And Jr. Anna & Meg",
+   "maxLevel": 17
+  },
+  "288": {
+   "name": "Sr. And Jr. Anna & Meg",
+   "maxLevel": 30
+  },
+  "289": {
+   "name": "Sr. And Jr. Anna & Meg",
+   "maxLevel": 33
+  },
+  "290": {
+   "name": "Sr. And Jr. Anna & Meg",
+   "maxLevel": 36
+  },
+  "291": {
+   "name": "Sr. And Jr. Anna & Meg",
+   "maxLevel": 38
+  },
+  "292": {
+   "name": "Winstrate Victor",
+   "maxLevel": 16
+  },
+  "293": {
+   "name": "PokéFan Miguel",
+   "maxLevel": 15
+  },
+  "294": {
+   "name": "PokéFan Colton",
+   "maxLevel": 42
+  },
+  "295": {
+   "name": "PokéFan Miguel",
+   "maxLevel": 29
+  },
+  "296": {
+   "name": "PokéFan Miguel",
+   "maxLevel": 32
+  },
+  "297": {
+   "name": "PokéFan Miguel",
+   "maxLevel": 35
+  },
+  "298": {
+   "name": "PokéFan Miguel",
+   "maxLevel": 38
+  },
+  "299": {
+   "name": "Winstrate Victoria",
+   "maxLevel": 17
+  },
+  "300": {
+   "name": "PokéFan Vanessa",
+   "maxLevel": 30
+  },
+  "301": {
+   "name": "PokéFan Bethany",
+   "maxLevel": 39
+  },
+  "302": {
+   "name": "PokéFan Isabel",
+   "maxLevel": 14
+  },
+  "303": {
+   "name": "PokéFan Isabel",
+   "maxLevel": 26
+  },
+  "304": {
+   "name": "PokéFan Isabel",
+   "maxLevel": 29
+  },
+  "305": {
+   "name": "PokéFan Isabel",
+   "maxLevel": 32
+  },
+  "306": {
+   "name": "PokéFan Isabel",
+   "maxLevel": 35
+  },
+  "307": {
+   "name": "Expert Timothy",
+   "maxLevel": 27
+  },
+  "308": {
+   "name": "Expert Timothy",
+   "maxLevel": 33
+  },
+  "309": {
+   "name": "Expert Timothy",
+   "maxLevel": 36
+  },
+  "310": {
+   "name": "Expert Timothy",
+   "maxLevel": 39
+  },
+  "311": {
+   "name": "Expert Timothy",
+   "maxLevel": 42
+  },
+  "312": {
+   "name": "Winstrate Vicky",
+   "maxLevel": 18
+  },
+  "313": {
+   "name": "Expert Shelby",
+   "maxLevel": 21
+  },
+  "314": {
+   "name": "Expert Shelby",
+   "maxLevel": 30
+  },
+  "315": {
+   "name": "Expert Shelby",
+   "maxLevel": 33
+  },
+  "316": {
+   "name": "Expert Shelby",
+   "maxLevel": 36
+  },
+  "317": {
+   "name": "Expert Shelby",
+   "maxLevel": 39
+  },
+  "318": {
+   "name": "Youngster Calvin",
+   "maxLevel": 5
+  },
+  "319": {
+   "name": "Youngster Billy",
+   "maxLevel": 7
+  },
+  "320": {
+   "name": "Youngster Josh",
+   "maxLevel": 10
+  },
+  "321": {
+   "name": "Youngster Tommy",
+   "maxLevel": 8
+  },
+  "322": {
+   "name": "Youngster Joey",
+   "maxLevel": 9
+  },
+  "323": {
+   "name": "Youngster Ben",
+   "maxLevel": 17
+  },
+  "324": {
+   "name": "Cooltrainer Quincy",
+   "maxLevel": 43
+  },
+  "325": {
+   "name": "Cooltrainer Katelynn",
+   "maxLevel": 43
+  },
+  "326": {
+   "name": "Youngster Jaylen",
+   "maxLevel": 19
+  },
+  "327": {
+   "name": "Youngster Dillon",
+   "maxLevel": 19
+  },
+  "328": {
+   "name": "Youngster Calvin",
+   "maxLevel": 27
+  },
+  "329": {
+   "name": "Youngster Calvin",
+   "maxLevel": 30
+  },
+  "330": {
+   "name": "Youngster Calvin",
+   "maxLevel": 33
+  },
+  "331": {
+   "name": "Youngster Calvin",
+   "maxLevel": 36
+  },
+  "332": {
+   "name": "Youngster Eddie",
+   "maxLevel": 16
+  },
+  "333": {
+   "name": "Youngster Allen",
+   "maxLevel": 4
+  },
+  "334": {
+   "name": "Youngster Timmy",
+   "maxLevel": 15
+  },
+  "335": {
+   "name": "Champion Wallace",
+   "maxLevel": 58
+  },
+  "336": {
+   "name": "Fisherman Andrew",
+   "maxLevel": 15
+  },
+  "337": {
+   "name": "Fisherman Ivan",
+   "maxLevel": 7
+  },
+  "338": {
+   "name": "Fisherman Claude",
+   "maxLevel": 18
+  },
+  "339": {
+   "name": "Fisherman Elliot",
+   "maxLevel": 10
+  },
+  "340": {
+   "name": "Fisherman Ned",
+   "maxLevel": 11
+  },
+  "341": {
+   "name": "Fisherman Dale",
+   "maxLevel": 14
+  },
+  "342": {
+   "name": "Fisherman Nolan",
+   "maxLevel": 19
+  },
+  "343": {
+   "name": "Fisherman Barny",
+   "maxLevel": 25
+  },
+  "344": {
+   "name": "Fisherman Wade",
+   "maxLevel": 16
+  },
+  "345": {
+   "name": "Fisherman Carter",
+   "maxLevel": 25
+  },
+  "346": {
+   "name": "Fisherman Elliot",
+   "maxLevel": 27
+  },
+  "347": {
+   "name": "Fisherman Elliot",
+   "maxLevel": 29
+  },
+  "348": {
+   "name": "Fisherman Elliot",
+   "maxLevel": 31
+  },
+  "349": {
+   "name": "Fisherman Elliot",
+   "maxLevel": 35
+  },
+  "350": {
+   "name": "Fisherman Ronald",
+   "maxLevel": 35
+  },
+  "351": {
+   "name": "Triathlete Jacob",
+   "maxLevel": 14
+  },
+  "352": {
+   "name": "Triathlete Anthony",
+   "maxLevel": 14
+  },
+  "353": {
+   "name": "Triathlete Benjamin",
+   "maxLevel": 16
+  },
+  "354": {
+   "name": "Triathlete Benjamin",
+   "maxLevel": 30
+  },
+  "355": {
+   "name": "Triathlete Benjamin",
+   "maxLevel": 33
+  },
+  "356": {
+   "name": "Triathlete Benjamin",
+   "maxLevel": 36
+  },
+  "357": {
+   "name": "Triathlete Benjamin",
+   "maxLevel": 39
+  },
+  "358": {
+   "name": "Triathlete Abigail",
+   "maxLevel": 16
+  },
+  "359": {
+   "name": "Triathlete Jasmine",
+   "maxLevel": 14
+  },
+  "360": {
+   "name": "Triathlete Abigail",
+   "maxLevel": 28
+  },
+  "361": {
+   "name": "Triathlete Abigail",
+   "maxLevel": 31
+  },
+  "362": {
+   "name": "Triathlete Abigail",
+   "maxLevel": 34
+  },
+  "363": {
+   "name": "Triathlete Abigail",
+   "maxLevel": 37
+  },
+  "364": {
+   "name": "Triathlete Dylan",
+   "maxLevel": 17
+  },
+  "365": {
+   "name": "Triathlete Dylan",
+   "maxLevel": 28
+  },
+  "366": {
+   "name": "Triathlete Dylan",
+   "maxLevel": 31
+  },
+  "367": {
+   "name": "Triathlete Dylan",
+   "maxLevel": 34
+  },
+  "368": {
+   "name": "Triathlete Dylan",
+   "maxLevel": 37
+  },
+  "369": {
+   "name": "Triathlete Maria",
+   "maxLevel": 17
+  },
+  "370": {
+   "name": "Triathlete Maria",
+   "maxLevel": 28
+  },
+  "371": {
+   "name": "Triathlete Maria",
+   "maxLevel": 31
+  },
+  "372": {
+   "name": "Triathlete Maria",
+   "maxLevel": 34
+  },
+  "373": {
+   "name": "Triathlete Maria",
+   "maxLevel": 37
+  },
+  "374": {
+   "name": "Triathlete Camden",
+   "maxLevel": 33
+  },
+  "375": {
+   "name": "Youngster Demetrius",
+   "maxLevel": 25
+  },
+  "376": {
+   "name": "Triathlete Isaiah",
+   "maxLevel": 35
+  },
+  "377": {
+   "name": "Triathlete Pablo",
+   "maxLevel": 33
+  },
+  "378": {
+   "name": "Triathlete Chase",
+   "maxLevel": 34
+  },
+  "379": {
+   "name": "Triathlete Isaiah",
+   "maxLevel": 39
+  },
+  "380": {
+   "name": "Triathlete Isaiah",
+   "maxLevel": 42
+  },
+  "381": {
+   "name": "Triathlete Isaiah",
+   "maxLevel": 45
+  },
+  "382": {
+   "name": "Triathlete Isaiah",
+   "maxLevel": 48
+  },
+  "383": {
+   "name": "Triathlete Isobel",
+   "maxLevel": 34
+  },
+  "384": {
+   "name": "Triathlete Donny",
+   "maxLevel": 34
+  },
+  "385": {
+   "name": "Triathlete Talia",
+   "maxLevel": 34
+  },
+  "386": {
+   "name": "Triathlete Katelyn",
+   "maxLevel": 35
+  },
+  "387": {
+   "name": "Triathlete Allison",
+   "maxLevel": 33
+  },
+  "388": {
+   "name": "Triathlete Katelyn",
+   "maxLevel": 39
+  },
+  "389": {
+   "name": "Triathlete Katelyn",
+   "maxLevel": 42
+  },
+  "390": {
+   "name": "Triathlete Katelyn",
+   "maxLevel": 45
+  },
+  "391": {
+   "name": "Triathlete Katelyn",
+   "maxLevel": 48
+  },
+  "392": {
+   "name": "Dragon Tamer Nicolas",
+   "maxLevel": 37
+  },
+  "393": {
+   "name": "Dragon Tamer Nicolas",
+   "maxLevel": 41
+  },
+  "394": {
+   "name": "Dragon Tamer Nicolas",
+   "maxLevel": 44
+  },
+  "395": {
+   "name": "Dragon Tamer Nicolas",
+   "maxLevel": 46
+  },
+  "396": {
+   "name": "Dragon Tamer Nicolas",
+   "maxLevel": 49
+  },
+  "397": {
+   "name": "Dragon Tamer Aaron",
+   "maxLevel": 34
+  },
+  "398": {
+   "name": "Bird Keeper Perry",
+   "maxLevel": 26
+  },
+  "399": {
+   "name": "Bird Keeper Hugh",
+   "maxLevel": 25
+  },
+  "400": {
+   "name": "Bird Keeper Phil",
+   "maxLevel": 26
+  },
+  "401": {
+   "name": "Bird Keeper Jared",
+   "maxLevel": 27
+  },
+  "402": {
+   "name": "Bird Keeper Humberto",
+   "maxLevel": 30
+  },
+  "403": {
+   "name": "Bird Keeper Presley",
+   "maxLevel": 33
+  },
+  "404": {
+   "name": "Bird Keeper Edwardo",
+   "maxLevel": 29
+  },
+  "405": {
+   "name": "Bird Keeper Colin",
+   "maxLevel": 28
+  },
+  "406": {
+   "name": "Bird Keeper Robert",
+   "maxLevel": 29
+  },
+  "407": {
+   "name": "Bird Keeper Benny",
+   "maxLevel": 36
+  },
+  "408": {
+   "name": "Bird Keeper Chester",
+   "maxLevel": 25
+  },
+  "409": {
+   "name": "Bird Keeper Robert",
+   "maxLevel": 32
+  },
+  "410": {
+   "name": "Bird Keeper Robert",
+   "maxLevel": 35
+  },
+  "411": {
+   "name": "Bird Keeper Robert",
+   "maxLevel": 38
+  },
+  "412": {
+   "name": "Bird Keeper Robert",
+   "maxLevel": 41
+  },
+  "413": {
+   "name": "Bird Keeper Alex",
+   "maxLevel": 33
+  },
+  "414": {
+   "name": "Bird Keeper Beck",
+   "maxLevel": 34
+  },
+  "415": {
+   "name": "Ninja Boy Yasu",
+   "maxLevel": 26
+  },
+  "416": {
+   "name": "Ninja Boy Takashi",
+   "maxLevel": 25
+  },
+  "417": {
+   "name": "Cooltrainer Dianne",
+   "maxLevel": 43
+  },
+  "418": {
+   "name": "Tuber Jani",
+   "maxLevel": 26
+  },
+  "419": {
+   "name": "Ninja Boy Lao",
+   "maxLevel": 17
+  },
+  "420": {
+   "name": "Ninja Boy Lung",
+   "maxLevel": 18
+  },
+  "421": {
+   "name": "Ninja Boy Lao",
+   "maxLevel": 26
+  },
+  "422": {
+   "name": "Ninja Boy Lao",
+   "maxLevel": 29
+  },
+  "423": {
+   "name": "Ninja Boy Lao",
+   "maxLevel": 32
+  },
+  "424": {
+   "name": "Ninja Boy Lao",
+   "maxLevel": 35
+  },
+  "425": {
+   "name": "Battle Girl Jocelyn",
+   "maxLevel": 13
+  },
+  "426": {
+   "name": "Battle Girl Laura",
+   "maxLevel": 13
+  },
+  "427": {
+   "name": "Battle Girl Cyndy",
+   "maxLevel": 18
+  },
+  "428": {
+   "name": "Battle Girl Cora",
+   "maxLevel": 27
+  },
+  "429": {
+   "name": "Battle Girl Paula",
+   "maxLevel": 27
+  },
+  "430": {
+   "name": "Battle Girl Cyndy",
+   "maxLevel": 26
+  },
+  "431": {
+   "name": "Battle Girl Cyndy",
+   "maxLevel": 29
+  },
+  "432": {
+   "name": "Battle Girl Cyndy",
+   "maxLevel": 32
+  },
+  "433": {
+   "name": "Battle Girl Cyndy",
+   "maxLevel": 35
+  },
+  "434": {
+   "name": "Parasol Lady Madeline",
+   "maxLevel": 19
+  },
+  "435": {
+   "name": "Parasol Lady Clarissa",
+   "maxLevel": 28
+  },
+  "436": {
+   "name": "Parasol Lady Angelica",
+   "maxLevel": 30
+  },
+  "437": {
+   "name": "Parasol Lady Madeline",
+   "maxLevel": 29
+  },
+  "438": {
+   "name": "Parasol Lady Madeline",
+   "maxLevel": 32
+  },
+  "439": {
+   "name": "Parasol Lady Madeline",
+   "maxLevel": 34
+  },
+  "440": {
+   "name": "Parasol Lady Madeline",
+   "maxLevel": 37
+  },
+  "441": {
+   "name": "Swimmer♀ Beverly",
+   "maxLevel": 25
+  },
+  "442": {
+   "name": "Swimmer♀ Imani",
+   "maxLevel": 26
+  },
+  "443": {
+   "name": "Swimmer♀ Kyla",
+   "maxLevel": 26
+  },
+  "444": {
+   "name": "Swimmer♀ Denise",
+   "maxLevel": 25
+  },
+  "445": {
+   "name": "Swimmer♀ Beth",
+   "maxLevel": 26
+  },
+  "446": {
+   "name": "Swimmer♀ Tara",
+   "maxLevel": 25
+  },
+  "447": {
+   "name": "Swimmer♀ Missy",
+   "maxLevel": 26
+  },
+  "448": {
+   "name": "Swimmer♀ Alice",
+   "maxLevel": 24
+  },
+  "449": {
+   "name": "Swimmer♀ Jenny",
+   "maxLevel": 34
+  },
+  "450": {
+   "name": "Swimmer♀ Grace",
+   "maxLevel": 34
+  },
+  "451": {
+   "name": "Swimmer♀ Tanya",
+   "maxLevel": 34
+  },
+  "452": {
+   "name": "Swimmer♀ Sharon",
+   "maxLevel": 34
+  },
+  "453": {
+   "name": "Swimmer♀ Nikki",
+   "maxLevel": 33
+  },
+  "454": {
+   "name": "Swimmer♀ Brenda",
+   "maxLevel": 34
+  },
+  "455": {
+   "name": "Swimmer♀ Katie",
+   "maxLevel": 33
+  },
+  "456": {
+   "name": "Swimmer♀ Susie",
+   "maxLevel": 34
+  },
+  "457": {
+   "name": "Swimmer♀ Kara",
+   "maxLevel": 34
+  },
+  "458": {
+   "name": "Swimmer♀ Dana",
+   "maxLevel": 34
+  },
+  "459": {
+   "name": "Swimmer♀ Sienna",
+   "maxLevel": 33
+  },
+  "460": {
+   "name": "Swimmer♀ Debra",
+   "maxLevel": 34
+  },
+  "461": {
+   "name": "Swimmer♀ Linda",
+   "maxLevel": 33
+  },
+  "462": {
+   "name": "Swimmer♀ Kaylee",
+   "maxLevel": 34
+  },
+  "463": {
+   "name": "Swimmer♀ Laurel",
+   "maxLevel": 33
+  },
+  "464": {
+   "name": "Swimmer♀ Carlee",
+   "maxLevel": 35
+  },
+  "465": {
+   "name": "Swimmer♀ Jenny",
+   "maxLevel": 38
+  },
+  "466": {
+   "name": "Swimmer♀ Jenny",
+   "maxLevel": 41
+  },
+  "467": {
+   "name": "Swimmer♀ Jenny",
+   "maxLevel": 43
+  },
+  "468": {
+   "name": "Swimmer♀ Jenny",
+   "maxLevel": 45
+  },
+  "469": {
+   "name": "Picnicker Heidi",
+   "maxLevel": 22
+  },
+  "470": {
+   "name": "Picnicker Becky",
+   "maxLevel": 22
+  },
+  "471": {
+   "name": "Picnicker Carol",
+   "maxLevel": 17
+  },
+  "472": {
+   "name": "Picnicker Nancy",
+   "maxLevel": 18
+  },
+  "473": {
+   "name": "Picnicker Martha",
+   "maxLevel": 23
+  },
+  "474": {
+   "name": "Picnicker Diana",
+   "maxLevel": 19
+  },
+  "475": {
+   "name": "Psychic Cedric",
+   "maxLevel": 32
+  },
+  "476": {
+   "name": "Picnicker Irene",
+   "maxLevel": 17
+  },
+  "477": {
+   "name": "Picnicker Diana",
+   "maxLevel": 25
+  },
+  "478": {
+   "name": "Picnicker Diana",
+   "maxLevel": 28
+  },
+  "479": {
+   "name": "Picnicker Diana",
+   "maxLevel": 31
+  },
+  "480": {
+   "name": "Picnicker Diana",
+   "maxLevel": 40
+  },
+  "481": {
+   "name": "Twins Amy & Liv",
+   "maxLevel": 15
+  },
+  "482": {
+   "name": "Twins Amy & Liv",
+   "maxLevel": 27
+  },
+  "483": {
+   "name": "Twins Gina & Mia",
+   "maxLevel": 6
+  },
+  "484": {
+   "name": "Twins Miu & Yuki",
+   "maxLevel": 26
+  },
+  "485": {
+   "name": "Twins Amy & Liv",
+   "maxLevel": 9
+  },
+  "486": {
+   "name": "Twins Gina & Mia",
+   "maxLevel": 10
+  },
+  "487": {
+   "name": "Twins Amy & Liv",
+   "maxLevel": 30
+  },
+  "488": {
+   "name": "Twins Amy & Liv",
+   "maxLevel": 33
+  },
+  "489": {
+   "name": "Twins Amy & Liv",
+   "maxLevel": 36
+  },
+  "490": {
+   "name": "Sailor Huey",
+   "maxLevel": 12
+  },
+  "491": {
+   "name": "Sailor Edmond",
+   "maxLevel": 13
+  },
+  "492": {
+   "name": "Sailor Ernest",
+   "maxLevel": 33
+  },
+  "493": {
+   "name": "Sailor Dwayne",
+   "maxLevel": 11
+  },
+  "494": {
+   "name": "Sailor Phillip",
+   "maxLevel": 44
+  },
+  "495": {
+   "name": "Sailor Leonard",
+   "maxLevel": 43
+  },
+  "496": {
+   "name": "Sailor Duncan",
+   "maxLevel": 25
+  },
+  "497": {
+   "name": "Sailor Ernest",
+   "maxLevel": 36
+  },
+  "498": {
+   "name": "Sailor Ernest",
+   "maxLevel": 39
+  },
+  "499": {
+   "name": "Sailor Ernest",
+   "maxLevel": 42
+  },
+  "500": {
+   "name": "Sailor Ernest",
+   "maxLevel": 45
+  },
+  "501": {
+   "name": "Hiker Eli",
+   "maxLevel": 23
+  },
+  "502": {
+   "name": "PokéFan Annika",
+   "maxLevel": 39
+  },
+  "503": {
+   "name": "Cooltrainer Jazmyn",
+   "maxLevel": 27
+  },
+  "504": {
+   "name": "Ninja Boy Jonas",
+   "maxLevel": 31
+  },
+  "505": {
+   "name": "Parasol Lady Kayley",
+   "maxLevel": 31
+  },
+  "506": {
+   "name": "Expert Auron",
+   "maxLevel": 33
+  },
+  "507": {
+   "name": "Sailor Kelvin",
+   "maxLevel": 33
+  },
+  "508": {
+   "name": "Cooltrainer Marley",
+   "maxLevel": 34
+  },
+  "509": {
+   "name": "Battle Girl Reyna",
+   "maxLevel": 33
+  },
+  "510": {
+   "name": "Sailor Hudson",
+   "maxLevel": 34
+  },
+  "511": {
+   "name": "Expert Conor",
+   "maxLevel": 33
+  },
+  "512": {
+   "name": "Collector Edwin",
+   "maxLevel": 14
+  },
+  "513": {
+   "name": "Collector Hector",
+   "maxLevel": 18
+  },
+  "514": {
+   "name": "Magma Admin Tabitha",
+   "maxLevel": 40
+  },
+  "515": {
+   "name": "Collector Edwin",
+   "maxLevel": 26
+  },
+  "516": {
+   "name": "Collector Edwin",
+   "maxLevel": 29
+  },
+  "517": {
+   "name": "Collector Edwin",
+   "maxLevel": 32
+  },
+  "518": {
+   "name": "Collector Edwin",
+   "maxLevel": 35
+  },
+  "519": {
+   "name": "Trainer Wally",
+   "maxLevel": 45
+  },
+  "520": {
+   "name": "Trainer Brendan",
+   "maxLevel": 5
+  },
+  "521": {
+   "name": "Trainer Brendan",
+   "maxLevel": 20
+  },
+  "522": {
+   "name": "Trainer Brendan",
+   "maxLevel": 31
+  },
+  "523": {
+   "name": "Trainer Brendan",
+   "maxLevel": 5
+  },
+  "524": {
+   "name": "Trainer Brendan",
+   "maxLevel": 20
+  },
+  "525": {
+   "name": "Trainer Brendan",
+   "maxLevel": 31
+  },
+  "526": {
+   "name": "Trainer Brendan",
+   "maxLevel": 5
+  },
+  "527": {
+   "name": "Trainer Brendan",
+   "maxLevel": 20
+  },
+  "528": {
+   "name": "Trainer Brendan",
+   "maxLevel": 31
+  },
+  "529": {
+   "name": "Trainer May",
+   "maxLevel": 5
+  },
+  "530": {
+   "name": "Trainer May",
+   "maxLevel": 20
+  },
+  "531": {
+   "name": "Trainer May",
+   "maxLevel": 31
+  },
+  "532": {
+   "name": "Trainer May",
+   "maxLevel": 5
+  },
+  "533": {
+   "name": "Trainer May",
+   "maxLevel": 20
+  },
+  "534": {
+   "name": "Trainer May",
+   "maxLevel": 31
+  },
+  "535": {
+   "name": "Trainer May",
+   "maxLevel": 5
+  },
+  "536": {
+   "name": "Trainer May",
+   "maxLevel": 20
+  },
+  "537": {
+   "name": "Trainer May",
+   "maxLevel": 31
+  },
+  "538": {
+   "name": "Breeder Isaac",
+   "maxLevel": 11
+  },
+  "539": {
+   "name": "Bug Catcher Davis",
+   "maxLevel": 27
+  },
+  "540": {
+   "name": "Cooltrainer Mitchell",
+   "maxLevel": 43
+  },
+  "541": {
+   "name": "Breeder Isaac",
+   "maxLevel": 22
+  },
+  "542": {
+   "name": "Breeder Isaac",
+   "maxLevel": 25
+  },
+  "543": {
+   "name": "Breeder Isaac",
+   "maxLevel": 28
+  },
+  "544": {
+   "name": "Breeder Isaac",
+   "maxLevel": 31
+  },
+  "545": {
+   "name": "Breeder Lydia",
+   "maxLevel": 11
+  },
+  "546": {
+   "name": "Cooltrainer Halle",
+   "maxLevel": 43
+  },
+  "547": {
+   "name": "Ruin Maniac Garrison",
+   "maxLevel": 26
+  },
+  "548": {
+   "name": "Breeder Lydia",
+   "maxLevel": 22
+  },
+  "549": {
+   "name": "Breeder Lydia",
+   "maxLevel": 25
+  },
+  "550": {
+   "name": "Breeder Lydia",
+   "maxLevel": 28
+  },
+  "551": {
+   "name": "Breeder Lydia",
+   "maxLevel": 31
+  },
+  "552": {
+   "name": "Ranger Jackson",
+   "maxLevel": 27
+  },
+  "553": {
+   "name": "Ranger Lorenzo",
+   "maxLevel": 28
+  },
+  "554": {
+   "name": "Ranger Sebastian",
+   "maxLevel": 39
+  },
+  "555": {
+   "name": "Ranger Jackson",
+   "maxLevel": 31
+  },
+  "556": {
+   "name": "Ranger Jackson",
+   "maxLevel": 34
+  },
+  "557": {
+   "name": "Ranger Jackson",
+   "maxLevel": 37
+  },
+  "558": {
+   "name": "Ranger Jackson",
+   "maxLevel": 39
+  },
+  "559": {
+   "name": "Ranger Catherine",
+   "maxLevel": 26
+  },
+  "560": {
+   "name": "Ranger Jenna",
+   "maxLevel": 28
+  },
+  "561": {
+   "name": "Ranger Sophia",
+   "maxLevel": 38
+  },
+  "562": {
+   "name": "Ranger Catherine",
+   "maxLevel": 30
+  },
+  "563": {
+   "name": "Ranger Catherine",
+   "maxLevel": 33
+  },
+  "564": {
+   "name": "Ranger Catherine",
+   "maxLevel": 36
+  },
+  "565": {
+   "name": "Ranger Catherine",
+   "maxLevel": 39
+  },
+  "566": {
+   "name": "Triathlete Julio",
+   "maxLevel": 21
+  },
+  "567": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 35
+  },
+  "568": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 31
+  },
+  "569": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 30
+  },
+  "570": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 22
+  },
+  "571": {
+   "name": "Hiker Marc",
+   "maxLevel": 8
+  },
+  "572": {
+   "name": "Sailor Brenden",
+   "maxLevel": 13
+  },
+  "573": {
+   "name": "Battle Girl Lilith",
+   "maxLevel": 13
+  },
+  "574": {
+   "name": "Black Belt Cristian",
+   "maxLevel": 13
+  },
+  "575": {
+   "name": "Hex Maniac Sylvia",
+   "maxLevel": 36
+  },
+  "576": {
+   "name": "Swimmer♂ Leonardo",
+   "maxLevel": 34
+  },
+  "577": {
+   "name": "Cooltrainer Athena",
+   "maxLevel": 32
+  },
+  "578": {
+   "name": "Swimmer♂ Harrison",
+   "maxLevel": 35
+  },
+  "579": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 20
+  },
+  "580": {
+   "name": "Swimmer♂ Clarence",
+   "maxLevel": 34
+  },
+  "581": {
+   "name": "Psychic Terry",
+   "maxLevel": 37
+  },
+  "582": {
+   "name": "Gentleman Nate",
+   "maxLevel": 36
+  },
+  "583": {
+   "name": "Hex Maniac Kathleen",
+   "maxLevel": 36
+  },
+  "584": {
+   "name": "Gentleman Clifford",
+   "maxLevel": 36
+  },
+  "585": {
+   "name": "Psychic Nicholas",
+   "maxLevel": 36
+  },
+  "586": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 31
+  },
+  "587": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 32
+  },
+  "588": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 32
+  },
+  "589": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 32
+  },
+  "590": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 32
+  },
+  "591": {
+   "name": "Psychic Macey",
+   "maxLevel": 36
+  },
+  "592": {
+   "name": "Trainer Brendan",
+   "maxLevel": 15
+  },
+  "593": {
+   "name": "Trainer Brendan",
+   "maxLevel": 15
+  },
+  "594": {
+   "name": "Expert Paxton",
+   "maxLevel": 33
+  },
+  "595": {
+   "name": "Triathlete Isabella",
+   "maxLevel": 34
+  },
+  "596": {
+   "name": "Team Aqua Grunt",
+   "maxLevel": 27
+  },
+  "597": {
+   "name": "Magma Admin Tabitha",
+   "maxLevel": 22
+  },
+  "598": {
+   "name": "Cooltrainer Jonathan",
+   "maxLevel": 33
+  },
+  "599": {
+   "name": "Trainer Brendan",
+   "maxLevel": 15
+  },
+  "600": {
+   "name": "Trainer May",
+   "maxLevel": 15
+  },
+  "601": {
+   "name": "Magma Leader Maxie",
+   "maxLevel": 39
+  },
+  "602": {
+   "name": "Magma Leader Maxie",
+   "maxLevel": 25
+  },
+  "603": {
+   "name": "Lass Tiana",
+   "maxLevel": 4
+  },
+  "604": {
+   "name": "Lass Haley",
+   "maxLevel": 6
+  },
+  "605": {
+   "name": "Lass Janice",
+   "maxLevel": 9
+  },
+  "606": {
+   "name": "Winstrate Vivi",
+   "maxLevel": 15
+  },
+  "607": {
+   "name": "Lass Haley",
+   "maxLevel": 26
+  },
+  "608": {
+   "name": "Lass Haley",
+   "maxLevel": 29
+  },
+  "609": {
+   "name": "Lass Haley",
+   "maxLevel": 32
+  },
+  "610": {
+   "name": "Lass Haley",
+   "maxLevel": 34
+  },
+  "611": {
+   "name": "Lass Sally",
+   "maxLevel": 16
+  },
+  "612": {
+   "name": "Lass Robin",
+   "maxLevel": 14
+  },
+  "613": {
+   "name": "Lass Andrea",
+   "maxLevel": 40
+  },
+  "614": {
+   "name": "Lass Crissy",
+   "maxLevel": 39
+  },
+  "615": {
+   "name": "Bug Catcher Rick",
+   "maxLevel": 4
+  },
+  "616": {
+   "name": "Bug Catcher Lyle",
+   "maxLevel": 3
+  },
+  "617": {
+   "name": "Bug Catcher Jose",
+   "maxLevel": 8
+  },
+  "618": {
+   "name": "Bug Catcher Doug",
+   "maxLevel": 28
+  },
+  "619": {
+   "name": "Bug Catcher Greg",
+   "maxLevel": 25
+  },
+  "620": {
+   "name": "Bug Catcher Kent",
+   "maxLevel": 25
+  },
+  "621": {
+   "name": "Bug Catcher James",
+   "maxLevel": 6
+  },
+  "622": {
+   "name": "Bug Catcher James",
+   "maxLevel": 27
+  },
+  "623": {
+   "name": "Bug Catcher James",
+   "maxLevel": 29
+  },
+  "624": {
+   "name": "Bug Catcher James",
+   "maxLevel": 31
+  },
+  "625": {
+   "name": "Bug Catcher James",
+   "maxLevel": 33
+  },
+  "626": {
+   "name": "Hiker Brice",
+   "maxLevel": 17
+  },
+  "627": {
+   "name": "Hiker Trent",
+   "maxLevel": 17
+  },
+  "628": {
+   "name": "Hiker Lenny",
+   "maxLevel": 18
+  },
+  "629": {
+   "name": "Hiker Lucas",
+   "maxLevel": 18
+  },
+  "630": {
+   "name": "Hiker Alan",
+   "maxLevel": 22
+  },
+  "631": {
+   "name": "Hiker Clark",
+   "maxLevel": 8
+  },
+  "632": {
+   "name": "Hiker Eric",
+   "maxLevel": 20
+  },
+  "633": {
+   "name": "Hiker Lucas",
+   "maxLevel": 9
+  },
+  "634": {
+   "name": "Hiker Mike",
+   "maxLevel": 10
+  },
+  "635": {
+   "name": "Hiker Mike",
+   "maxLevel": 16
+  },
+  "636": {
+   "name": "Hiker Trent",
+   "maxLevel": 24
+  },
+  "637": {
+   "name": "Hiker Trent",
+   "maxLevel": 27
+  },
+  "638": {
+   "name": "Hiker Trent",
+   "maxLevel": 30
+  },
+  "639": {
+   "name": "Hiker Trent",
+   "maxLevel": 33
+  },
+  "640": {
+   "name": "Young Couple Dez & Luke",
+   "maxLevel": 31
+  },
+  "641": {
+   "name": "Young Couple Lea & Jed",
+   "maxLevel": 45
+  },
+  "642": {
+   "name": "Young Couple Kira & Dan",
+   "maxLevel": 25
+  },
+  "643": {
+   "name": "Young Couple Kira & Dan",
+   "maxLevel": 30
+  },
+  "644": {
+   "name": "Young Couple Kira & Dan",
+   "maxLevel": 33
+  },
+  "645": {
+   "name": "Young Couple Kira & Dan",
+   "maxLevel": 36
+  },
+  "646": {
+   "name": "Young Couple Kira & Dan",
+   "maxLevel": 39
+  },
+  "647": {
+   "name": "Beauty Johanna",
+   "maxLevel": 13
+  },
+  "648": {
+   "name": "Cooltrainer Gerald",
+   "maxLevel": 23
+  },
+  "649": {
+   "name": "Battle Girl Vivian",
+   "maxLevel": 17
+  },
+  "650": {
+   "name": "Battle Girl Danielle",
+   "maxLevel": 23
+  },
+  "651": {
+   "name": "Ninja Boy Hideo",
+   "maxLevel": 25
+  },
+  "652": {
+   "name": "Ninja Boy Keigo",
+   "maxLevel": 28
+  },
+  "653": {
+   "name": "Ninja Boy Riley",
+   "maxLevel": 28
+  },
+  "654": {
+   "name": "Camper Flint",
+   "maxLevel": 29
+  },
+  "655": {
+   "name": "Picnicker Ashley",
+   "maxLevel": 27
+  },
+  "656": {
+   "name": "Trainer Wally",
+   "maxLevel": 16
+  },
+  "657": {
+   "name": "Trainer Wally",
+   "maxLevel": 48
+  },
+  "658": {
+   "name": "Trainer Wally",
+   "maxLevel": 51
+  },
+  "659": {
+   "name": "Trainer Wally",
+   "maxLevel": 54
+  },
+  "660": {
+   "name": "Trainer Wally",
+   "maxLevel": 57
+  },
+  "661": {
+   "name": "Trainer Brendan",
+   "maxLevel": 34
+  },
+  "662": {
+   "name": "Trainer Brendan",
+   "maxLevel": 34
+  },
+  "663": {
+   "name": "Trainer Brendan",
+   "maxLevel": 34
+  },
+  "664": {
+   "name": "Trainer May",
+   "maxLevel": 34
+  },
+  "665": {
+   "name": "Trainer May",
+   "maxLevel": 34
+  },
+  "666": {
+   "name": "Trainer May",
+   "maxLevel": 34
+  },
+  "667": {
+   "name": "Fisherman Jonah",
+   "maxLevel": 32
+  },
+  "668": {
+   "name": "Fisherman Henry",
+   "maxLevel": 34
+  },
+  "669": {
+   "name": "Fisherman Roger",
+   "maxLevel": 35
+  },
+  "670": {
+   "name": "Cooltrainer Alexa",
+   "maxLevel": 34
+  },
+  "671": {
+   "name": "Cooltrainer Ruben",
+   "maxLevel": 34
+  },
+  "672": {
+   "name": "Black Belt Koji",
+   "maxLevel": 34
+  },
+  "673": {
+   "name": "Fisherman Wayne",
+   "maxLevel": 36
+  },
+  "674": {
+   "name": "Bird Keeper Aidan",
+   "maxLevel": 32
+  },
+  "675": {
+   "name": "Swimmer♂ Reed",
+   "maxLevel": 33
+  },
+  "676": {
+   "name": "Swimmer♀ Tisha",
+   "maxLevel": 34
+  },
+  "677": {
+   "name": "Twins Tori & Tia",
+   "maxLevel": 19
+  },
+  "678": {
+   "name": "Sr. And Jr. Kim & Iris",
+   "maxLevel": 35
+  },
+  "679": {
+   "name": "Sr. And Jr. Tyra & Ivy",
+   "maxLevel": 20
+  },
+  "680": {
+   "name": "Young Couple Mel & Paul",
+   "maxLevel": 27
+  },
+  "681": {
+   "name": "Old Couple John & Jay",
+   "maxLevel": 39
+  },
+  "682": {
+   "name": "Old Couple John & Jay",
+   "maxLevel": 43
+  },
+  "683": {
+   "name": "Old Couple John & Jay",
+   "maxLevel": 46
+  },
+  "684": {
+   "name": "Old Couple John & Jay",
+   "maxLevel": 49
+  },
+  "685": {
+   "name": "Old Couple John & Jay",
+   "maxLevel": 52
+  },
+  "686": {
+   "name": "Sis And Bro Reli & Ian",
+   "maxLevel": 35
+  },
+  "687": {
+   "name": "Sis And Bro Lila & Roy",
+   "maxLevel": 34
+  },
+  "688": {
+   "name": "Sis And Bro Lila & Roy",
+   "maxLevel": 42
+  },
+  "689": {
+   "name": "Sis And Bro Lila & Roy",
+   "maxLevel": 45
+  },
+  "690": {
+   "name": "Sis And Bro Lila & Roy",
+   "maxLevel": 48
+  },
+  "691": {
+   "name": "Sis And Bro Lila & Roy",
+   "maxLevel": 51
+  },
+  "692": {
+   "name": "Sis And Bro Lisa & Ray",
+   "maxLevel": 27
+  },
+  "693": {
+   "name": "Fisherman Chris",
+   "maxLevel": 29
+  },
+  "694": {
+   "name": "Rich Boy Dawson",
+   "maxLevel": 8
+  },
+  "695": {
+   "name": "Lady Sarah",
+   "maxLevel": 8
+  },
+  "696": {
+   "name": "Fisherman Darian",
+   "maxLevel": 9
+  },
+  "697": {
+   "name": "Tuber Hailey",
+   "maxLevel": 13
+  },
+  "698": {
+   "name": "Tuber Chandler",
+   "maxLevel": 12
+  },
+  "699": {
+   "name": "PokéFan Kaleb",
+   "maxLevel": 14
+  },
+  "700": {
+   "name": "Guitarist Joseph",
+   "maxLevel": 14
+  },
+  "701": {
+   "name": "Triathlete Alyssa",
+   "maxLevel": 15
+  },
+  "702": {
+   "name": "Guitarist Marcos",
+   "maxLevel": 15
+  },
+  "703": {
+   "name": "Black Belt Rhett",
+   "maxLevel": 15
+  },
+  "704": {
+   "name": "Camper Tyron",
+   "maxLevel": 19
+  },
+  "705": {
+   "name": "Aroma Lady Celina",
+   "maxLevel": 18
+  },
+  "706": {
+   "name": "Picnicker Bianca",
+   "maxLevel": 18
+  },
+  "707": {
+   "name": "Kindler Hayden",
+   "maxLevel": 18
+  },
+  "708": {
+   "name": "Picnicker Sophie",
+   "maxLevel": 19
+  },
+  "709": {
+   "name": "Bird Keeper Coby",
+   "maxLevel": 19
+  },
+  "710": {
+   "name": "Camper Lawrence",
+   "maxLevel": 18
+  },
+  "711": {
+   "name": "PokéManiac Wyatt",
+   "maxLevel": 18
+  },
+  "712": {
+   "name": "Picnicker Angelina",
+   "maxLevel": 18
+  },
+  "713": {
+   "name": "Fisherman Kai",
+   "maxLevel": 19
+  },
+  "714": {
+   "name": "Picnicker Charlotte",
+   "maxLevel": 19
+  },
+  "715": {
+   "name": "Youngster Deandre",
+   "maxLevel": 14
+  },
+  "716": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "717": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "718": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "719": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 28
+  },
+  "720": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 28
+  },
+  "721": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "722": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "723": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "724": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "725": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "726": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "727": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "728": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "729": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "730": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "731": {
+   "name": "Team Magma Grunt",
+   "maxLevel": 29
+  },
+  "732": {
+   "name": "Magma Admin Tabitha",
+   "maxLevel": 33
+  },
+  "733": {
+   "name": "Cooltrainer Darcy",
+   "maxLevel": 33
+  },
+  "734": {
+   "name": "Magma Leader Maxie",
+   "maxLevel": 44
+  },
+  "735": {
+   "name": "Swimmer♂ Pete",
+   "maxLevel": 15
+  },
+  "736": {
+   "name": "Swimmer♀ Isabelle",
+   "maxLevel": 15
+  },
+  "737": {
+   "name": "Ruin Maniac Andres",
+   "maxLevel": 25
+  },
+  "738": {
+   "name": "Bird Keeper Josue",
+   "maxLevel": 25
+  },
+  "739": {
+   "name": "Triathlete Camron",
+   "maxLevel": 26
+  },
+  "740": {
+   "name": "Sailor Cory",
+   "maxLevel": 24
+  },
+  "741": {
+   "name": "Cooltrainer Carolina",
+   "maxLevel": 24
+  },
+  "742": {
+   "name": "Bird Keeper Elijah",
+   "maxLevel": 25
+  },
+  "743": {
+   "name": "Picnicker Celia",
+   "maxLevel": 22
+  },
+  "744": {
+   "name": "Ruin Maniac Bryan",
+   "maxLevel": 22
+  },
+  "745": {
+   "name": "Camper Branden",
+   "maxLevel": 22
+  },
+  "746": {
+   "name": "Kindler Bryant",
+   "maxLevel": 18
+  },
+  "747": {
+   "name": "Aroma Lady Shayla",
+   "maxLevel": 18
+  },
+  "748": {
+   "name": "Triathlete Kyra",
+   "maxLevel": 26
+  },
+  "749": {
+   "name": "Ninja Boy Jaiden",
+   "maxLevel": 26
+  },
+  "750": {
+   "name": "Psychic Alix",
+   "maxLevel": 26
+  },
+  "751": {
+   "name": "Battle Girl Helene",
+   "maxLevel": 26
+  },
+  "752": {
+   "name": "Psychic Marlene",
+   "maxLevel": 18
+  },
+  "753": {
+   "name": "Hiker Devan",
+   "maxLevel": 8
+  },
+  "754": {
+   "name": "Youngster Johnson",
+   "maxLevel": 8
+  },
+  "755": {
+   "name": "Triathlete Melina",
+   "maxLevel": 17
+  },
+  "756": {
+   "name": "Psychic Brandi",
+   "maxLevel": 17
+  },
+  "757": {
+   "name": "Battle Girl Aisha",
+   "maxLevel": 17
+  },
+  "758": {
+   "name": "Expert Makayla",
+   "maxLevel": 33
+  },
+  "759": {
+   "name": "Guitarist Fabian",
+   "maxLevel": 26
+  },
+  "760": {
+   "name": "Kindler Dayton",
+   "maxLevel": 25
+  },
+  "761": {
+   "name": "Parasol Lady Rachel",
+   "maxLevel": 26
+  },
+  "762": {
+   "name": "Cooltrainer Leonel",
+   "maxLevel": 30
+  },
+  "763": {
+   "name": "Battle Girl Callie",
+   "maxLevel": 28
+  },
+  "764": {
+   "name": "Bug Maniac Cale",
+   "maxLevel": 29
+  },
+  "765": {
+   "name": "Breeder Myles",
+   "maxLevel": 25
+  },
+  "766": {
+   "name": "Breeder Pat",
+   "maxLevel": 25
+  },
+  "767": {
+   "name": "Cooltrainer Cristin",
+   "maxLevel": 29
+  },
+  "768": {
+   "name": "Trainer May",
+   "maxLevel": 15
+  },
+  "769": {
+   "name": "Trainer May",
+   "maxLevel": 15
+  },
+  "770": {
+   "name": "Leader Roxanne",
+   "maxLevel": 37
+  },
+  "771": {
+   "name": "Leader Roxanne",
+   "maxLevel": 42
+  },
+  "772": {
+   "name": "Leader Roxanne",
+   "maxLevel": 47
+  },
+  "773": {
+   "name": "Leader Roxanne",
+   "maxLevel": 52
+  },
+  "774": {
+   "name": "Leader Brawly",
+   "maxLevel": 37
+  },
+  "775": {
+   "name": "Leader Brawly",
+   "maxLevel": 42
+  },
+  "776": {
+   "name": "Leader Brawly",
+   "maxLevel": 47
+  },
+  "777": {
+   "name": "Leader Brawly",
+   "maxLevel": 52
+  },
+  "778": {
+   "name": "Leader Wattson",
+   "maxLevel": 40
+  },
+  "779": {
+   "name": "Leader Wattson",
+   "maxLevel": 45
+  },
+  "780": {
+   "name": "Leader Wattson",
+   "maxLevel": 50
+  },
+  "781": {
+   "name": "Leader Wattson",
+   "maxLevel": 55
+  },
+  "782": {
+   "name": "Leader Flannery",
+   "maxLevel": 40
+  },
+  "783": {
+   "name": "Leader Flannery",
+   "maxLevel": 45
+  },
+  "784": {
+   "name": "Leader Flannery",
+   "maxLevel": 50
+  },
+  "785": {
+   "name": "Leader Flannery",
+   "maxLevel": 55
+  },
+  "786": {
+   "name": "Leader Norman",
+   "maxLevel": 45
+  },
+  "787": {
+   "name": "Leader Norman",
+   "maxLevel": 50
+  },
+  "788": {
+   "name": "Leader Norman",
+   "maxLevel": 55
+  },
+  "789": {
+   "name": "Leader Norman",
+   "maxLevel": 60
+  },
+  "790": {
+   "name": "Leader Winona",
+   "maxLevel": 45
+  },
+  "791": {
+   "name": "Leader Winona",
+   "maxLevel": 50
+  },
+  "792": {
+   "name": "Leader Winona",
+   "maxLevel": 55
+  },
+  "793": {
+   "name": "Leader Winona",
+   "maxLevel": 60
+  },
+  "794": {
+   "name": "Leader Tate&Liza",
+   "maxLevel": 50
+  },
+  "795": {
+   "name": "Leader Tate&Liza",
+   "maxLevel": 55
+  },
+  "796": {
+   "name": "Leader Tate&Liza",
+   "maxLevel": 60
+  },
+  "797": {
+   "name": "Leader Tate&Liza",
+   "maxLevel": 65
+  },
+  "798": {
+   "name": "Leader Juan",
+   "maxLevel": 51
+  },
+  "799": {
+   "name": "Leader Juan",
+   "maxLevel": 56
+  },
+  "800": {
+   "name": "Leader Juan",
+   "maxLevel": 61
+  },
+  "801": {
+   "name": "Leader Juan",
+   "maxLevel": 66
+  },
+  "802": {
+   "name": "Bug Maniac Angelo",
+   "maxLevel": 17
+  },
+  "803": {
+   "name": "Bird Keeper Darius",
+   "maxLevel": 30
+  },
+  "804": {
+   "name": "Trainer Steven",
+   "maxLevel": 78
+  },
+  "805": {
+   "name": "Salon Maiden Anabel",
+   "maxLevel": 5
+  },
+  "806": {
+   "name": "Dome Ace Tucker",
+   "maxLevel": 5
+  },
+  "807": {
+   "name": "Palace Maven Spenser",
+   "maxLevel": 5
+  },
+  "808": {
+   "name": "Arena Tycoon Greta",
+   "maxLevel": 5
+  },
+  "809": {
+   "name": "Factory Head Noland",
+   "maxLevel": 5
+  },
+  "810": {
+   "name": "Pike Queen Lucy",
+   "maxLevel": 5
+  },
+  "811": {
+   "name": "Pyramid King Brandon",
+   "maxLevel": 5
+  },
+  "812": {
+   "name": "Ruin Maniac Andres",
+   "maxLevel": 31
+  },
+  "813": {
+   "name": "Ruin Maniac Andres",
+   "maxLevel": 33
+  },
+  "814": {
+   "name": "Ruin Maniac Andres",
+   "maxLevel": 35
+  },
+  "815": {
+   "name": "Ruin Maniac Andres",
+   "maxLevel": 37
+  },
+  "816": {
+   "name": "Sailor Cory",
+   "maxLevel": 30
+  },
+  "817": {
+   "name": "Sailor Cory",
+   "maxLevel": 32
+  },
+  "818": {
+   "name": "Sailor Cory",
+   "maxLevel": 34
+  },
+  "819": {
+   "name": "Sailor Cory",
+   "maxLevel": 36
+  },
+  "820": {
+   "name": "Triathlete Pablo",
+   "maxLevel": 37
+  },
+  "821": {
+   "name": "Triathlete Pablo",
+   "maxLevel": 39
+  },
+  "822": {
+   "name": "Triathlete Pablo",
+   "maxLevel": 41
+  },
+  "823": {
+   "name": "Triathlete Pablo",
+   "maxLevel": 43
+  },
+  "824": {
+   "name": "Black Belt Koji",
+   "maxLevel": 37
+  },
+  "825": {
+   "name": "Black Belt Koji",
+   "maxLevel": 39
+  },
+  "826": {
+   "name": "Black Belt Koji",
+   "maxLevel": 41
+  },
+  "827": {
+   "name": "Black Belt Koji",
+   "maxLevel": 43
+  },
+  "828": {
+   "name": "Cooltrainer Cristin",
+   "maxLevel": 35
+  },
+  "829": {
+   "name": "Cooltrainer Cristin",
+   "maxLevel": 37
+  },
+  "830": {
+   "name": "Cooltrainer Cristin",
+   "maxLevel": 39
+  },
+  "831": {
+   "name": "Cooltrainer Cristin",
+   "maxLevel": 41
+  },
+  "832": {
+   "name": "Guitarist Fernando",
+   "maxLevel": 35
+  },
+  "833": {
+   "name": "Guitarist Fernando",
+   "maxLevel": 37
+  },
+  "834": {
+   "name": "Guitarist Fernando",
+   "maxLevel": 39
+  },
+  "835": {
+   "name": "Guitarist Fernando",
+   "maxLevel": 41
+  },
+  "836": {
+   "name": "Hiker Sawyer",
+   "maxLevel": 26
+  },
+  "837": {
+   "name": "Hiker Sawyer",
+   "maxLevel": 28
+  },
+  "838": {
+   "name": "Hiker Sawyer",
+   "maxLevel": 30
+  },
+  "839": {
+   "name": "Hiker Sawyer",
+   "maxLevel": 33
+  },
+  "840": {
+   "name": "Breeder Gabrielle",
+   "maxLevel": 31
+  },
+  "841": {
+   "name": "Breeder Gabrielle",
+   "maxLevel": 33
+  },
+  "842": {
+   "name": "Breeder Gabrielle",
+   "maxLevel": 35
+  },
+  "843": {
+   "name": "Breeder Gabrielle",
+   "maxLevel": 37
+  },
+  "844": {
+   "name": "Beauty Thalia",
+   "maxLevel": 34
+  },
+  "845": {
+   "name": "Beauty Thalia",
+   "maxLevel": 36
+  },
+  "846": {
+   "name": "Beauty Thalia",
+   "maxLevel": 38
+  },
+  "847": {
+   "name": "Beauty Thalia",
+   "maxLevel": 40
+  },
+  "848": {
+   "name": "Psychic Mariela",
+   "maxLevel": 41
+  },
+  "849": {
+   "name": "Psychic Alvaro",
+   "maxLevel": 41
+  },
+  "850": {
+   "name": "Gentleman Everett",
+   "maxLevel": 41
+  },
+  "851": {
+   "name": "Trainer Red",
+   "maxLevel": 5
+  },
+  "852": {
+   "name": "Trainer Leaf",
+   "maxLevel": 5
+  },
+  "853": {
+   "name": "Trainer Brendan",
+   "maxLevel": 5
+  },
+  "854": {
+   "name": "Trainer May",
+   "maxLevel": 5
+  }
+ },
+ "levelCaps": [
+  {
+   "badge": 1,
+   "label": "Leader Roxanne",
+   "level": 15,
+   "trainerId": 265
+  },
+  {
+   "badge": 2,
+   "label": "Leader Brawly",
+   "level": 19,
+   "trainerId": 266
+  },
+  {
+   "badge": 3,
+   "label": "Leader Wattson",
+   "level": 24,
+   "trainerId": 267
+  },
+  {
+   "badge": 4,
+   "label": "Leader Flannery",
+   "level": 29,
+   "trainerId": 268
+  },
+  {
+   "badge": 5,
+   "label": "Leader Norman",
+   "level": 31,
+   "trainerId": 269
+  },
+  {
+   "badge": 6,
+   "label": "Leader Winona",
+   "level": 33,
+   "trainerId": 270
+  },
+  {
+   "badge": 7,
+   "label": "Leader Tate&Liza",
+   "level": 42,
+   "trainerId": 271
+  },
+  {
+   "badge": 8,
+   "label": "Leader Juan",
+   "level": 46,
+   "trainerId": 272
+  }
+ ]
+}
